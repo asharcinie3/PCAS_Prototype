@@ -3,25 +3,23 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-.header {
-    text-align: center;
-    width: 90%;
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
-    margin: 20px 20px;
 }
 
-.prototype {
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    width: 65%;
+.header {
+    width: 100%;
     margin: 0 auto;
-    margin-top: 30px;
+    margin: 15px 15px;
 }
 
 iframe {
     width: 100%;
-    height: 600px;
+    height: 100%;
     border-radius: 5px;
     border-color: #ccc;
 }
