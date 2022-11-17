@@ -1,14 +1,6 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(Azonix-1VB0.otf) format("truetype");
-}
-
-body.customfont { 
-    font-family: myFirstFont, Helvetica, sans-serif;
-}
-
 body {
     background-color: white;
+    font-family: Helvetica, sans-serif;
 }
 
 .header {
