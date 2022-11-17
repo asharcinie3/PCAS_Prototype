@@ -10,7 +10,7 @@ body {
 }
 
 .prototype {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 
@@ -18,5 +18,6 @@ body {
 
 iframe {
     margin: 0 auto;
-    justify-content: center;
+    width: 100%;
+    height: 600px;
 }
