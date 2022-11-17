@@ -8,13 +8,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 0 auto;
 }
 
 .header {
     width: 100%;
-    margin: 0 auto;
     margin: 15px 15px;
+    text-align: center;
+}
+
+.prototype {
+    width: 80%;
 }
 
 iframe {
