@@ -13,14 +13,10 @@ body {
 .prototype {
     width: 80%;
     margin: 0 auto;
-    text-align: center;
-    margin: 15px 15px;
 }
 
 iframe {
-    margin: 0 auto;
-    width: 100%;
-    height: 600px;
+    margin-right: 50px;
     border-radius: 5px;
     border-color: #ccc;
 }
