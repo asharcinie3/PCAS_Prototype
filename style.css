@@ -1,15 +1,17 @@
 body {
-    background-color: white;
+    background-color: #fff;
     font-family: Helvetica, sans-serif;
 }
 
 .header {
+    background-color: #f3f3f3;
     text-align: center;
     width: 90%;
     margin: 0 auto;
 }
 
 .prototype {
+    background-color: #f3f3f3;
     width: 80%;
     margin: 0 auto;
     text-align: center;
