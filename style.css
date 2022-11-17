@@ -7,7 +7,7 @@ body {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    margin: 15px 15px;
+    margin: 20px 20px;
 }
 
 .prototype {
@@ -15,8 +15,8 @@ body {
     display: flex;
     justify-content: center;
     width: 70%;
-    margin-top: 30px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 iframe {
