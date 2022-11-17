@@ -1,14 +1,14 @@
 @font-face {
-    font-family: "myFirstFont";
+    font-family: myFirstFont;
     src: url(Azonix-1VB0.otf) format("truetype");
 }
 
 body.customfont { 
-    font-family: "myFirstFont", Verdana, Tahoma;
+    font-family: myFirstFont, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #ccc;
+    background-color: white;
 }
 
 .header {
