@@ -1,8 +1,18 @@
-body {
-    background-color: #f3f3f3;
-    font-family: Helvetica, sans-serif;
+@font-face {
+    font-family: "myFirstFont";
+    src: url(Azonix-1VB0.otf) format("truetype");
 }
 
-h1 {
+body.customfont { 
+    font-family: "myFirstFont", Verdana, Tahoma;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.header {
     text-align: center;
+    width: 90%;
+    margin: 0 auto;
 }
