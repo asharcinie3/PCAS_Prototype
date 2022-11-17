@@ -16,7 +16,7 @@ body {
 }
 
 iframe {
-    margin-right: 50px;
+    margin: 10% 20px;
     border-radius: 5px;
     border-color: #ccc;
 }
