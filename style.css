@@ -9,8 +9,14 @@ body {
     margin: 0 auto;
 }
 
+.prototype {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
 iframe {
-    width: 960px;
-    height: 600px;
+    margin: 0 auto;
     justify-content: center;
 }
