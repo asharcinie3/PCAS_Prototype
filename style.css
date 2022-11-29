@@ -53,7 +53,7 @@ a:visited {
 .case-cards {
     display: grid;
     justify-content: center;
-    grid-template-columns: 45% 30%;
+    grid-template-columns: 50% 25%;
     grid-template-rows: 150px 150px 150px;
     grid-gap: 30px;
     padding: 20px 20px;
@@ -64,6 +64,7 @@ a:visited {
     box-shadow: rgba(39, 39, 39, 0.1) 0 0 20px;
     border: .2x solid #f3f3f3;
     padding: 30px 30px;
+    overflow: hidden;
 }
 
 #c0 {
