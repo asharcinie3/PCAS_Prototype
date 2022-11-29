@@ -54,14 +54,10 @@ a:visited {
 .case-cards {
     display: grid;
     justify-content: center;
-    grid-template-columns: 25% 50%;
-    grid-template-rows: 225px 225px 225px;
+    grid-template-columns: 50% 25%;
+    grid-template-rows: 150px 150px 150px;
     grid-gap: 30px;
     padding: 20px 20px;
-}
-
-.case-cards p {
-    margin-top: 0px;
 }
 
 .card {
