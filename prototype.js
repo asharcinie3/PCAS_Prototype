@@ -1,8 +1,9 @@
-function button11() {
-    var x = document.getElementById("e1-1");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+$("#button").on("click", function(e) {
+    if ($(".card-hidden").length > 0) {
+       $(".card-hidden").first().slideToggle(function() {
+         $(this).removeClass("card-hidden");
+       });
     } else {
-      x.style.display = "none";
+      console.log("No more cards to show.");
     }
-  }
+   });
