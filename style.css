@@ -75,6 +75,10 @@ a:visited {
     text-align: center;
 }
 
+.card-hidden {
+    display: none;
+}
+
 #c0 {
     grid-column: 1; 
     grid-row: 1/ span 3;
