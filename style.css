@@ -143,12 +143,15 @@ a:visited {
     padding: 20px 20px;
 }
 
-#c2-1 {
-    grid-column: 1;
-    grid-row: 1;
+#c2-1, #c2-2, #c3-3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#c2-1 {
+    grid-column: 1;
+    grid-row: 1;
 }
 
 #c2-2 {
