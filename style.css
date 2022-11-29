@@ -48,7 +48,7 @@ a {
     text-decoration: none;
 }
 
-.case-cards a:visited {
+.card a:visited {
     text-decoration: none;
     color: orange;
 }
@@ -104,10 +104,6 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#c1-1, #c1-2, #c1-3, #c1-4, #c2-1, #c2-2, #c2-3, #c3-1, #c3-2, #c3-3 a:visited{
-    color: orange;
 }
 
 .case1 {
