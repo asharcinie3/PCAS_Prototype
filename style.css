@@ -14,8 +14,11 @@ body {
 
 h3 {
     margin: 0;
-    font-weight: 100px;
     display: block;
+}
+
+p {
+    line-height: 7px;
 }
 
 .header {
