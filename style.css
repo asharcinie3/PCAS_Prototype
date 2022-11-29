@@ -51,17 +51,17 @@ a:visited {
     color: #222;
 }
 
-.scenario-cards {
+.case-cards {
     display: grid;
     justify-content: center;
     grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 225px 225px;
     grid-gap: 30px;
     padding: 20px 20px;
 }
 
 
-.scenario-cards p {
+.case-cards p {
     margin-top: 0px;
 }
 
