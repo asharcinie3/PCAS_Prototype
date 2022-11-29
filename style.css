@@ -21,9 +21,9 @@ body {
 .scenario-cards {
     display: grid;
     justify-content: center;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 400px 400px;
-    grid-gap: 15px;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: 200px 200px;
+    grid-gap: 30px;
     padding: 20px 20px;
 }
 
