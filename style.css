@@ -67,8 +67,8 @@ a:visited {
 
 .card {
     background-color: #fff;
-    box-shadow: rgba(39, 39, 39, 0.1) 0 0 10px;
-    border: .1px solid #f3f3f3;
+    box-shadow: rgba(39, 39, 39, 0.1) 0 0 20px;
+    border: .2x solid #f3f3f3;
     padding: 30px 30px;
 }
 
