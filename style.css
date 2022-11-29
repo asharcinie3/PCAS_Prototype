@@ -141,12 +141,12 @@ a:visited {
     grid-template-rows: 55% 55% 55%;
     grid-gap: 30px;
     padding: 20px 20px;
-    align-items: center;
 }
 
 #c2-1 {
     grid-column: 1;
     grid-row: 1;
+    align-items: center;
 }
 
 #c2-2 {
