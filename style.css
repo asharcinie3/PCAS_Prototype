@@ -36,6 +36,16 @@ body {
     transition: opacity ease-in-out 0.2s;
 }
 
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #222;
+}
+
 .scenario-cards {
     display: grid;
     justify-content: center;
