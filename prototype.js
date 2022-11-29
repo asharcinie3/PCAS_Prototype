@@ -1,3 +1,3 @@
 document.getElementById("b1").onclick = () =>  {
-    document.getElementById('e11').style.display = "block";
+    document.getElementById('e1-1').style.display = "block";
 }
