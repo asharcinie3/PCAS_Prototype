@@ -41,14 +41,14 @@ h3 {
     transition: opacity ease-in-out 0.2s;
 }
 
-a {
+/*a {
     text-decoration: none;
 }
 
 a:visited {
     text-decoration: none;
-    color: #222;
-}
+    color: rgb(36, 45, 66);
+}*/
 
 .case-cards {
     display: grid;
