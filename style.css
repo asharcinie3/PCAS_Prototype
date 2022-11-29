@@ -54,12 +54,11 @@ a:visited {
 .case-cards {
     display: grid;
     justify-content: center;
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 225px 225px;
+    grid-template-columns: 25% 50%;
+    grid-template-rows: 225px 225px 225px;
     grid-gap: 30px;
     padding: 20px 20px;
 }
-
 
 .case-cards p {
     margin-top: 0px;
@@ -72,19 +71,24 @@ a:visited {
     padding: 30px 30px;
 }
 
+#c0 {
+    grid-column: 1; 
+    grid-row: 1/ span 3;
+}
+
 #c1 {
+    grid-column: 2;
     grid-row: 1;
-    grid-column: 1;
 }
 
 #c2 {
-    grid-row: 1;
     grid-column: 2;
+    grid-row: 2;
 }
 
 #c3 {
-    grid-row: 1;
-    grid-column: 3;
+    grid-column: 2;
+    grid-row: 3;
 }
 
 .case1 {
