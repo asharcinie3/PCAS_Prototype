@@ -17,10 +17,6 @@ h3 {
     display: block;
 }
 
-p {
-    line-height: 7px;
-}
-
 .header {
     width: 100%;
     margin: 15px 15px;
@@ -62,6 +58,11 @@ a:visited {
     grid-template-rows: 250px 250px;
     grid-gap: 30px;
     padding: 20px 20px;
+}
+
+
+.scenario-cards p {
+    margin-top: 0px;
 }
 
 .card {
