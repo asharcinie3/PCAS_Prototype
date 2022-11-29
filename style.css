@@ -21,7 +21,7 @@ body {
 .scenario-cards {
     display: grid;
     justify-content: center;
-    grid-template-columns: 35% 35% 35%;
+    grid-template-columns: 30% 30% 30%;
     grid-template-rows: 250px 250px;
     grid-gap: 30px;
     padding: 20px 20px;
@@ -52,7 +52,7 @@ body {
 .case1 {
     display: grid;
     justify-content: center;
-    grid-template-columns: 80%;
+    grid-template-columns: 100%;
     grid-template-rows: 600px 600px 600px 600px;
     grid-gap: 30px;
     padding: 20px 20px;
