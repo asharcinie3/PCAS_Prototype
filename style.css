@@ -146,6 +146,8 @@ a:visited {
 #c2-1 {
     grid-column: 1;
     grid-row: 1;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
