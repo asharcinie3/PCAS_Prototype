@@ -28,8 +28,8 @@ document.getElementById("b4").onclick = () =>  {
 }
 
 /* cover functionality for case two page */
-document.getElementById("b5").onclick = () =>  {
-    document.getElementById('e5').style.display = "block";
+document.getElementById("a").onclick = () =>  {
+    document.getElementById('a1').style.display = "block";
 }
 
 document.getElementById("b6").onclick = () =>  {

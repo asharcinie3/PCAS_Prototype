@@ -177,7 +177,7 @@ button {
     grid-row: 3;
 }
 
-#e5, #e6, #e7 {
+#a1, #e6, #e7 {
     grid-column: 2;
     grid-row: 1 / span 3;
 }
