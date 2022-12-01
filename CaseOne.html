@@ -41,53 +41,30 @@
                     at (35,0) giving them a final speed of 0 kilometers per hour. This leaves the pedestrian stopped
                     directly in the path of the autonomous vehicle with a potential time of impact at 2.5 seconds. In this scenario 
                     the PCAS will input the data from the stereo camera and communicate with the brake by wire system
-                    to decelerate the autonomous vehicle, at a rate of ? meter per second, stopping the vehicle 1.5 meters before
-                    it collides with the pedestrian. 
+                    to decelerate the autonomous vehicle stopping the vehicle 1.5 meters before it collides with the pedestrian. 
                </p>
                 <div class="tab1">
                     <table id="pv1">
                         <tr>
                             <td></td>
-                            <th scope="col">Pedestrian</th>
-                            <th scope="col">Vehicle</th>
-                        </tr>
-                        <tr>
-                            <td scope="row">Initial Location:</td> 
-                            <td>(35, -7)</td>    
-                            <td>(0, 0)</td>                         
-                        </tr>
-                        <tr>
+                            <td scope="col">Initial Location:</td>
                             <td scope="row">Final Location:</td>
-                            <td>(35, 0)</td>
-                            <td>(33.5, 0)</td>
-                        </tr>
-                        <tr>
                             <td scope="row">Initial Speed:</td>
-                            <td>2.7 m/s</td>
-                            <td>13.89 m/s</td>
-                        </tr>
-                        <tr>                            
                             <td scope="row">Final Speed:</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pedestrian</th>
+                            <td>(35, -7)</td> 
+                            <td>(35, 0)</td>
+                            <td>2.7 m/s</td>
                             <td>0 m/s</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Vehicle</th>
+                            <td>(0, 0)</td>    
+                            <td>(33.5, 0)</td>  
+                            <td>13.89 m/s</td>
                             <td>0 m/s</td>
-                        </tr>
-                    </table>
-                    <table id="col1">
-                        <tr>
-                            <th scope="col" colspan="2">Pedestrian Collision:</th>
-                        </tr>
-                        <tr>
-                            <td>Vehicle Deceleration Rate:</td>
-                            <td>? m/s</td>
-                        </tr>
-                        <tr>
-                            <td>Potential Impact at:</td>
-                            <td>3.125 s</td>
-                        </tr>
-                        <tr>
-                            <td>Collision Avoided?</td>
-                            <td>yes</td>
-                        </tr>
                     </table>
                 </div>
             </div>
