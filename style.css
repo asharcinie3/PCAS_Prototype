@@ -151,6 +151,7 @@ a:visited {
 button {
     background-color: #fff;
     border-color: orange;
+    padding: 15px 15px;
 }
 
 .case2, .case3 {
