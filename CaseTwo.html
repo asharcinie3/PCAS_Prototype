@@ -32,8 +32,51 @@
 
             <div class="card card-hidden c2" id="e5">
                 <h3>Static & Then Moving: Scenario 5</h3>
-                <p>Scenario: </p>
-                <p>Outcome:</p>
+                <p>In this scenario the Pedestrian will initially be stopped at the position (35,0)  and have a delay of 
+                    1.5 seconds before moving and ending with a final speed of 10 kilometers per hour. This will leave the
+                    pedestrian directly in the vehicle's path for 1.5 seconds. The pedestrian will continue moving until it
+                    is out of the path of the autonomous vehicle. The PCAS will react to this by slowing down and stopping 1.5m
+                    from the pedestrian. It will stay stopped until the pedestrian is no longer in the collision zone. Once the 
+                    pedestrian is no longer in the path of the autonomous vehicle the PCAS shall no longer notify the Vehicle 
+                    Brake by Wire System to stop the car and will allow the car to accelerate at a steady rate of 0.25g, 
+                    accelerating at 2.45m/s, until the autonomous vehicle reaches its steady state speed of 50kph. This shall 
+                    happen within 5s of the pedestrian no longer being in the path of the autonomous vehicle. 
+                </p>
+                <div class="tab2">
+                    <table>
+                        <tr>
+                            <td></td>
+                            <th scope="col">Location:</th>
+                            <th scope="row">Delay before moving:</th>
+                            <th scope="row">Initial Speed:</th>
+                            <th scope="row">Speed:</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pedestrian</th>
+                            <td>(35, 0)</td> 
+                            <td>1.5 s</td>
+                            <td>2.77 m/s</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Vehicle</th>
+                            <td>(0, 0)</td>    
+                            <td>NA</td>  
+                            <td>13.89 m/s</td>
+                    </table>
+                    <table>
+                        <tr>
+                            <td></td>
+                            <th scope="row" rowspan="2">Pedestrian Collision:</th>
+                        </tr>
+                        <tr>
+                            <td scope="row">Duration in Zone:</td>
+                            <td>1.5 s</td> 
+                        </tr>
+                        <tr>
+                            <td scope="row">Collision Avoided?</td>
+                            <td>yes</td>    
+                    </table>
+                
             </div>
 
             <div class="card card-hidden c2" id="e6">
