@@ -148,12 +148,17 @@ button {
     grid-row: 1 / span 5;
 }
 
-.tab1 {
+/*.tab1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 15px 15px;
+}*/
+
+.tab {
+    display: flex;
+    justify-content: center;
 }
 
 table {
@@ -162,8 +167,9 @@ table {
     border-spacing: 5px .5rem;
     text-align: left;
     border: 1px solid;
-    width: 400px;
+    width: 700px;
     height: 150px;
+    margin: 0px;
 }
 
 #col1 {
