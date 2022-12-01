@@ -143,13 +143,28 @@ button {
 }
 
 .tablesc1 {
-    table-layout: fixed;
-    word-wrap:break-word;
     margin: 0 auto;
-    border-spacing: 5px 1.2rem;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
     text-align: left;
+}
+
+#tc1-right {
     display: flex;
     flex-direction: column;
+}
+
+#tc1-left {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    table-layout: fixed;
+    word-wrap:break-word;
+    border-spacing: 5px 1.2rem;
+    text-align: left;
 }
 
 /*case 2 & case 3 page*/
