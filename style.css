@@ -149,7 +149,7 @@ button {
     border-spacing: 5px 1.2rem;
     text-align: left;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 /*case 2 & case 3 page*/
