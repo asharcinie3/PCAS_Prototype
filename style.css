@@ -110,7 +110,7 @@ a:visited {
     align-items: center;
 }
 
-.case1, .case2, .case3 {
+.case1 {
     display: grid;
     justify-content: center;
     grid-template-columns: 15% 65%;
@@ -119,17 +119,17 @@ a:visited {
     padding: 20px 20px;
 }
 
-#c1-1, #c2-1, #c3-1 {
+#c1-1 {
     grid-column: 1;
     grid-row: 1;
 }
 
-#c1-2, #c2-2, #c3-2 {
+#c1-2 {
     grid-column: 1;
     grid-row: 2;
 }
 
-#c1-3, #c2-3, #c3-3 {
+#c1-3 {
     grid-column: 1;
     grid-row: 3;
 }
@@ -139,26 +139,21 @@ a:visited {
     grid-row: 4;
 }
 
-#e1, #e5, #e8 {
+#e1 {
     display: block;
 }
 
-.card-hidden {
+.c1 {
     grid-column: 2;
     grid-row: 1 / span 4;
 }
-
-/*#e5, #e6, #e7, #e8, #e9, #e10 {
-    grid-column: 2;
-    grid-row: 1 / span 3;
-}*/
 
 button {
     background-color: #fff;
     border-color: orange;
 }
 
-/*.case2, .case3 {
+.case2, .case3 {
     display: grid;
     justify-content: center;
     grid-template-columns: 15% 65%;
@@ -167,50 +162,26 @@ button {
     padding: 20px 20px;
 }
 
-#c2-1 {
+#c2-1, #c3-1 {
     grid-column: 1;
     grid-row: 1;
 }
 
-#c2-2 {
+#c2-2, #c3-2 {
     grid-column: 1;
     grid-row: 2;
 }
 
-#c2-3 {
+#c2-3, #c3-3 {
     grid-column: 1;
     grid-row: 3;
 }
 
-#e5 {
+#e5, #e8 {
     display: block;
 }
 
-#e5, #e6, #e7 {
+.c2, .c3 {
     grid-column: 2;
     grid-row: 1 / span 3;
 }
-
-#c3-1 {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-#c3-2 {
-    grid-column: 1;
-    grid-row: 2;
-}
-
-#c3-3 {
-    grid-column: 1;
-    grid-row: 3;
-}
-
-#e8 {
-    display: block;
-}
-
-#e8, #e9, #e10 {
-    grid-column: 2;
-    grid-row: 1 / span 3;
-}*/
