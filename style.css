@@ -108,7 +108,7 @@ button {
     display: grid;
     justify-content: center;
     grid-template-columns: 15% 65%;
-    grid-template-rows: 30% 30% 30% 30%;
+    grid-template-rows: 150px 150px 150px 150px 150px;
     grid-gap: 30px;
     padding: 20px 20px;
 }
@@ -139,7 +139,7 @@ button {
 
 .c1 {
     grid-column: 2;
-    grid-row: 1 / span 4;
+    grid-row: 1 / span 5;
 }
 
 .tablesc1 {
@@ -153,7 +153,6 @@ button {
     display: flex;
     padding: 15px 15px;
     flex-direction: column;
-    width: 45%;
 }
 
 #tc1-left {
@@ -161,7 +160,6 @@ button {
     display: flex;
     flex-direction: column;
     width: 45%;
-    padding: 15px 15px;
 }
 
 table {
@@ -169,6 +167,7 @@ table {
     word-wrap:break-word;
     border-spacing: 5px 1.2rem;
     text-align: left;
+    width: 200px;
 }
 
 /*case 2 & case 3 page*/
