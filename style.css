@@ -201,22 +201,11 @@ button {
     grid-row: 3;
 }
 
-/*#e8 {
+#e8 {
     display: block;
-}*/
+}
 
 #e8, #e9, #e10 {
     grid-column: 2;
     grid-row: 1 / span 3;
 }
-
-/*.prototype {
-    width: 64%;
-}
-
-iframe {
-    width: 100%;
-    height: 600px;
-    border-radius: 5px;
-    border-color: #ccc;
-}*/
