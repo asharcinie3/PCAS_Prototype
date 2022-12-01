@@ -149,7 +149,8 @@ a:visited {
 }
 
 button {
-    background-color: #fff
+    background-color: #fff;
+    border: 0px;
 }
 
 .case2, .case3 {
