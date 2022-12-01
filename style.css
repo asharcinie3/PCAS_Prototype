@@ -143,23 +143,23 @@ button {
 }
 
 .tablesc1 {
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    width: 80%;
     text-align: left;
 }
 
 #tc1-right {
-    flex: right;
     display: flex;
+    padding: 15px 15px;
     flex-direction: column;
+    width: 45%;
 }
 
 #tc1-left {
-    flex: left;
     display: flex;
     flex-direction: column;
+    width: 45%;
+    padding: 15px 15px;
 }
 
 table {
