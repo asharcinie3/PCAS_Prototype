@@ -104,8 +104,8 @@ button {
     border-color: #fff;
 }
 
-/*case one page*/
-.case1 p {
+/*case one-three page*/
+.case1 p, .case2 p, .case3 p {
     padding: 15px 15px;
     text-align: left;
 }
@@ -169,6 +169,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: none;
 }
 
 table {
@@ -186,6 +187,14 @@ table {
 th, td {
     border: 1px solid;
     padding: 15px;
+}
+
+#t2-1 {
+    width: 400px;
+}
+
+#t2-2 {
+    width: 400;
 }
 
 /*alignment for all button cards*/
