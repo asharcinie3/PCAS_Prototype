@@ -139,7 +139,7 @@ button {
     grid-row: 4;
 }
 
-#e1, #e8 {
+#e1, #e5, #e8 {
     display: block;
 }
 
@@ -193,12 +193,10 @@ th, td {
     border: 1px solid;
 }
 
-#t2-1 {
+#ct2 {
     width: 400px;
-}
-
-#t2-2 {
-    width: 400px;
+    border-collapse: collapse;
+    border: 1px solid;
 }
 
 /*alignment for all button cards*/
