@@ -112,7 +112,7 @@ button {
 .case1 {
     display: grid;
     justify-content: center;
-    grid-template-columns: 15% 65%;
+    grid-template-columns: 15% 70%;
     grid-template-rows: 125px 125px 125px 125px 125px;
     grid-gap: 30px;
     padding: 20px 20px;
@@ -161,7 +161,7 @@ table {
     border-spacing: 5px .5rem;
     text-align: left;
     border: 1px solid;
-    width: 400px;
+    width: 450px;
     height: 150px;
 }
 
