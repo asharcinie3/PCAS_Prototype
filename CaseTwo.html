@@ -34,12 +34,7 @@
                 <h3>Static & Then Moving: Scenario 5</h3>
                 <p>In this scenario the Pedestrian will initially be stopped at the position (35,0), which is in the collision zone. 
                     They will have a delay of 1.5 seconds before moving and ending with a final speed of 10 kilometers per hour(2.77 m/s). 
-                    This will leave the pedestrian directly in the vehicle's path for 1.86 seconds. The PCAS will react to this by slowing down 
-                    and stopping 1.5m from the pedestrian. It will stay stopped until the pedestrian is no longer in the collision zone. Once the 
-                    pedestrian is no longer in the path of the autonomous vehicle the PCAS shall no longer notify the Vehicle 
-                    Brake by Wire System to stop the car. The car will then accelerate at a steady rate of 0.25g, 
-                    accelerating at 2.45m/s, until the autonomous vehicle reaches its steady state speed of 50kph(13.89 m/s). This shall 
-                    happen within 5 seconds of the pedestrian no longer being in the path of the autonomous vehicle. 
+                    This will leave the pedestrian directly in the vehicle's path for 1.86 seconds.
                 </p>
                 <div class="tab2">
                     <table class="ct2">
@@ -74,18 +69,19 @@
                             <td>yes</td>    
                     </table>
                 </div>
+                <p>In each scenario in case two, the PCAS will react to by slowing down and stopping, 1.5m from the pedestrian. 
+                    It will stay stopped until the pedestrian is no longer in the collision zone. Once the 
+                    pedestrian is no longer in the path of the autonomous vehicle the PCAS shall no longer notify the Vehicle 
+                    Brake by Wire System to stop the car. The car will then accelerate at a steady rate of 0.25g, 
+                    accelerating at 2.45m/s, until the autonomous vehicle reaches its steady state speed of 50kph(13.89 m/s). This shall 
+                    happen within 5 seconds of the pedestrian no longer being in the path of the autonomous vehicle.</p>
             </div>
 
             <div class="card card-hidden c2" id="e6">
                 <h3>Static & Then Moving: Scenario 6</h3>
                 <p>In this scenario the Pedestrian will initially be stopped at the position (35,-2), which is in the collision zone. 
                     They will have a delay of 1.8 seconds before moving and ending with a final speed of 10 kilometers per hour (2.77m/s).
-                    This will leave the pedestrian directly in the vehicle's path for 2.88 seconds. The PCAS will react to this by slowing down 
-                    and stopping 1.5m from the pedestrian. It will stay stopped until the pedestrian is no longer in the collision zone. Once the 
-                    pedestrian is no longer in the path of the autonomous vehicle the PCAS shall no longer notify the Vehicle 
-                    Brake by Wire System to stop the car. The car will then accelerate at a steady rate of 0.25g, 
-                    accelerating at 2.45m/s, until the autonomous vehicle reaches its steady state speed of 50kph(13.89 m/s). This shall 
-                    happen within 5 seconds of the pedestrian no longer being in the path of the autonomous vehicle.
+                    This will leave the pedestrian directly in the vehicle's path for 2.88 seconds.
                 </p>
                 <div class="tab2">
                     <table class="ct2">
@@ -119,15 +115,21 @@
                             <th scope="row">Collision Avoided?</th>
                             <td>yes</td>    
                     </table>
-                </div>                
+                </div>
+                <p>In each scenario in case two, the PCAS will react to by slowing down and stopping, 1.5m from the pedestrian. 
+                    It will stay stopped until the pedestrian is no longer in the collision zone. Once the 
+                    pedestrian is no longer in the path of the autonomous vehicle the PCAS shall no longer notify the Vehicle 
+                    Brake by Wire System to stop the car. The car will then accelerate at a steady rate of 0.25g, 
+                    accelerating at 2.45m/s, until the autonomous vehicle reaches its steady state speed of 50kph(13.89 m/s). This shall 
+                    happen within 5 seconds of the pedestrian no longer being in the path of the autonomous vehicle.</p>                
             </div>
 
             <div class="card card-hidden c2" id="e7">
                 <h3>Static & Then Moving: Scenario 7</h3>
-                <p>In this scenario the Pedestrian will initially be stopped at the position (35,-4)  and have a delay of 1.1 seconds
-                    before moving and ending with a final speed of 10 kilometers per hour(2.77m/s). In this scenario the pedestrian 
-                    will never be in the path of the autonomous vehicle so the PCAS does not have to communicate with the brake by wire 
-                    system and the autonomous vehicle will continue at its initial velocity. </p>
+                <p>In this scenario the Pedestrian will initially be stopped at the position (35,-4), outside of the collision zone. They will
+                    have a delay of 1.1 seconds before moving and ending with a final speed of 10 kilometers per hour(2.77m/s). In this scenario 
+                    the pedestrian will be in the vehicle's path for 1.1 second. 
+                </p>
                 <div class="tab2">
                     <table class="ct2">
                         <tr>
@@ -160,7 +162,13 @@
                             <th scope="row">Collision Avoided?</th>
                             <td>yes</td>    
                     </table>
-                </div>       
+                </div>
+                <p>In each scenario in case two, the PCAS will react to by slowing down and stopping, 1.5m from the pedestrian. 
+                    It will stay stopped until the pedestrian is no longer in the collision zone. Once the 
+                    pedestrian is no longer in the path of the autonomous vehicle the PCAS shall no longer notify the Vehicle 
+                    Brake by Wire System to stop the car. The car will then accelerate at a steady rate of 0.25g, 
+                    accelerating at 2.45m/s, until the autonomous vehicle reaches its steady state speed of 50kph(13.89 m/s). This shall 
+                    happen within 5 seconds of the pedestrian no longer being in the path of the autonomous vehicle.</p>       
             </div>
         </div>
     </div>
