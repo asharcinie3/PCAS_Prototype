@@ -169,7 +169,7 @@ button {
 .tab2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     border: none;
 }
 
@@ -193,10 +193,14 @@ th, td {
     border: 1px solid;
 }
 
-#ct2 {
-    width: 400px;
+.ct2 {
+    width: 450px;
     border-collapse: collapse;
     border: 1px solid;
+}
+
+#ct2-2 {
+    width: 200px;
 }
 
 /*alignment for all button cards*/
