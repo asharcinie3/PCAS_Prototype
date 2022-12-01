@@ -160,7 +160,7 @@ button {
     height: 153px;
 }*/
 
-.tab {
+.tab{
     display: flex;
     justify-content: center;
 }
