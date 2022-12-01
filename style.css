@@ -177,6 +177,10 @@ button {
     grid-row: 3;
 }
 
+#a1{
+    display: block;
+}
+
 #a1, #e6, #e7 {
     grid-column: 2;
     grid-row: 1 / span 3;
