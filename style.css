@@ -104,6 +104,17 @@ button {
     border-color: #fff;
 }
 
+button h3 {
+    color: rgb(207, 135, 1);
+}
+
+/*alignment for all button cards*/
+#c1-1, #c1-2, #c1-3, #c1-4, #c2-1, #c2-2, #c2-3, #c3-1, #c3-2, #c3-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*case one-three page*/
 .case1 p, .case2 p, .case3 p {
     padding: 15px 15px;
@@ -201,15 +212,4 @@ th, td {
 
 #ct2-2 {
     width: 300px;
-}
-
-/*alignment for all button cards*/
-#c1-1, #c1-2, #c1-3, #c1-4, #c2-1, #c2-2, #c2-3, #c3-1, #c3-2, #c3-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-button h3 {
-    color: orange;
 }
