@@ -151,7 +151,7 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 30px 30px;
 }
 
@@ -162,6 +162,7 @@ table {
     text-align: left;
     border: 1px solid;
     width: 400px;
+    height: 150px;
 }
 
 /*case 2 & case 3 page*/
