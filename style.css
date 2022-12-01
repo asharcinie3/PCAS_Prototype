@@ -197,9 +197,9 @@ button {
     grid-row: 3;
 }
 
-#e5 {
+/*#e5 {
     display: block;
-}
+}*/
 
 #e5, #e6, #e7 {
     grid-column: 2;
