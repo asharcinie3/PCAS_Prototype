@@ -15,7 +15,7 @@ h3 {
 /*home page*/
 .card a:visited {
     text-decoration: none;
-    color: orange;
+    color: #DC7B04;
 }
 
 .case-cards {
@@ -104,8 +104,8 @@ button {
     border-color: #fff;
 }
 
-button h3 {
-    color: rgb(207, 135, 1);
+.card-hidden h3 {
+    color: #DC7B04;
 }
 
 /*alignment for all button cards*/
