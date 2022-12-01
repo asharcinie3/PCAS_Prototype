@@ -104,8 +104,8 @@ button {
     border-color: #fff;
 }
 
-.card-hidden h3 {
-    color: #DC7B04;
+button h3 {
+    color: #F08605;
 }
 
 /*alignment for all button cards*/
