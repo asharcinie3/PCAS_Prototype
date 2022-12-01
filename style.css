@@ -149,7 +149,6 @@ button {
 }
 
 #e6 {
-    display: block;
     grid-column: 2;
     grid-row: 1 / span 5;
 }
