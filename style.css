@@ -110,7 +110,7 @@ a:visited {
     align-items: center;
 }
 
-.case1 {
+.case1, .case2, .case3 {
     display: grid;
     justify-content: center;
     grid-template-columns: 15% 65%;
