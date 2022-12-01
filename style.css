@@ -155,7 +155,7 @@ table {
     word-wrap:break-word;
     border-spacing: 5px .5rem;
     text-align: left;
-    border: 1px;
+    border-radius: 5px;
 }
 
 #pv1 {
@@ -164,10 +164,6 @@ table {
 
 #col1 {
     width: 370px;
-}
-
-#a {
-    width: 200px;
 }
 
 /*case 2 & case 3 page*/
