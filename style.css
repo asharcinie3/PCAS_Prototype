@@ -149,14 +149,12 @@ button {
 }
 
 #tc1-right {
-    flex: right;
     display: flex;
     padding: 15px 15px;
     flex-direction: column;
 }
 
 #tc1-left {
-    flex: left;
     display: flex;
     flex-direction: column;
     width: 45%;
@@ -167,7 +165,7 @@ table {
     word-wrap:break-word;
     border-spacing: 5px 1.2rem;
     text-align: left;
-    width: 200px;
+    width: 300px;
 }
 
 /*case 2 & case 3 page*/
