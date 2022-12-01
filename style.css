@@ -169,11 +169,13 @@ table {
     width: 700px;
     height: 150px;
     margin: 0px;
-    border-collapse: collapse
+    border-collapse: collapse;
+    border: 1px solid;
 }
 
-table, th, td {
+th, td {
     border: 1px solid;
+    padding: 15px;
 }
 
 #col1 {
