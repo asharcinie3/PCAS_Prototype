@@ -139,6 +139,10 @@ a:visited {
     grid-row: 4;
 }
 
+#e1 {
+    display: block;
+}
+
 #e1, #e2, #e3, #e4 {
     grid-column: 2;
     grid-row: 1 / span 4;
