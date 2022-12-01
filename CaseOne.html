@@ -36,10 +36,10 @@
 
             <div class="card card-hidden c1" id="e1">
                 <h3>Static & Then Moving: Scenario 1:</h3>
-                <p>In this scenario, the Pedestrian will be moving in the positive y direction with an initial speed
-                    of 10 kilometers per hour(13.89m/s). They will begin at (35,-7) and continue until they come to a stop 
-                    at (35,0) giving them a final speed of 0 kilometers per hour. This leaves the pedestrian stopped
-                    directly in the path of the autonomous vehicle with a potential time of impact at 2.16 seconds. In this scenario 
+                <p>In this scenario, the pedestrian will be moving in the positive y direction with an initial speed
+                    of 10 km/h (13.89m/s). They will begin at (35,-7) and continue until they come to a stop 
+                    at (35,0) giving them a final speed of 0 km/h. This leaves the pedestrian stopped
+                    directly in the path of the autonomous vehicle with a potential time of impact of 2.16 seconds. In this scenario, 
                     the PCAS will input the data from the stereo camera and communicate with the brake by wire system
                     to decelerate the autonomous vehicle stopping the vehicle 1.5 meters before it collides with the pedestrian. 
                </p>
@@ -71,12 +71,12 @@
 
             <div class="card card-hidden c1" id="e2">
                 <h3>Moving & Then Static: Scenario 2</h3>
-                <p>In this scenario, the Pedestrian will be moving in the positive y direction with an initial speed of 10 kilometers
-                    per hour(13.89m/s). They will begin at (35,-7) and continue until they come to a stop at (35,-2) giving them a final speed
-                    of 0 kilometers per hour. This leaves the pedestrian outside of the collision zone. This is because the width of the 
-                    autonomous vehicle is 2.0 meters wide. In this scenario the PCAS will input the data from the stereo camera and determine
-                    initially that it needs to slow down, as the system will not exceed 16km/h (4.4m/s) if a pedestrian is within 4.5m away.
-                    Once the stereo camera detects that the pedestrian has stopped outside of the collision zone ,and that the pedestrian
+                <p>In this scenario, the pedestrian will be moving in the positive y direction with an initial speed of 10 km/h (13.89m/s). 
+                    They will begin at (35,-7) and continue until they come to a stop at (35,-2) giving them a final speed
+                    of 0 km/h. This leaves the pedestrian outside of the collision zone. This is because the width of the 
+                    autonomous vehicle is 2.0 meters wide. In this scenario, the PCAS will input the data from the stereo camera and determine
+                    initially that it needs to slow down, as the system will not exceed 16km/h (4.4m/s) if a pedestrian is within 4.5 meters away.
+                    Once the stereo camera detects that the pedestrian has stopped outside of the collision zone and that the pedestrian
                     is over 4.5m away, it will accelerate at a steady rate of 0.25g, accelerating at 2.45m/s, until it reaches a steady state velocity.
                </p>
                 <div class="tab">
@@ -107,11 +107,11 @@
 
             <div class="card card-hidden c1" id="e3">
                 <h3>Moving & Then Static: Scenario 3</h3>
-                <p>In this scenario, the Pedestrian will be moving in the positive y direction with an initial speed of 10 km/h
+                <p>In this scenario, the pedestrian will be moving in the positive y direction with an initial speed of 10 km/h
                     (13.89m/s). They will begin at (35,-7) and continue until they come to a stop at (35,-3) giving them a final speed
                     of 0 km/h. The pedestrian does not end in the collision zone. This is because the width of the 
-                    autonomous vehicle is 2.0 meters wide. In this scenario the PCAS will input the data from the stereo camera and
-                    determine that it initially needs to slow down, as the system will not exceed 16km/h (4.4m/s) if a pedestrian is within 4.5m away.
+                    autonomous vehicle is 2.0 meters wide. In this scenario, the PCAS will input the data from the stereo camera and
+                    determine that it initially needs to slow down, as the system will not exceed 16km/h (4.4m/s) if a pedestrian is within 4.5 meters away.
                     The stereo camera will then detect that the pedestrian has stopped outside of the collision zone and will accelerate at a steady 
                     rate of 0.25g, accelerating at 2.45m/s, until it reaches a steady state velocity.
                </p>
@@ -143,11 +143,11 @@
 
             <div class="card card-hidden c1" id="e4">
                 <h3>Moving & Then Static: Scenario 4</h3>
-                <p>In this scenario, the Pedestrian will be moving in the positive y direction with an initial speed of 10 kilometers
-                    per hour(13.89m/s). They will begin at (35,-7) and continue until they come to a stop at (35,-5) giving them a final speed 
-                    of 0 kilometers per hour. The pedestrian does not end in the collision zone. This is because the width of the 
-                    autonomous vehicle is 2.0 meters wide. In this scenario the PCAS will input the data from the stereo camera and
-                    determine that it initially needs to slow down, as the system will not exceed 16km/h (4.4m/s) if a pedestrian is within 4.5m away.
+                <p>In this scenario, the pedestrian will be moving in the positive y direction with an initial speed of 10 km/h (13.89m/s). 
+                    They will begin at (35,-7) and continue until they come to a stop at (35,-5) giving them a final speed 
+                    of 0 km/h. The pedestrian does not end in the collision zone. This is because the width of the 
+                    autonomous vehicle is 2.0 meters wide. In this scenario, the PCAS will input the data from the stereo camera and
+                    determine that it initially needs to slow down, as the system will not exceed 16km/h (4.4m/s) if a pedestrian is within 4.5 meters away.
                     The stereo camera will then detect that the pedestrian has stopped outside of the collision zone and will accelerate at a steady
                     rate of 0.25g, accelerating at 2.45m/s, until it reaches a steady state velocity.
                 </p>
