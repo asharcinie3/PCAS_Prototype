@@ -177,7 +177,7 @@ button {
     grid-row: 3;
 }
 
-#e2-1 {
+#e5, #e6, #e7 {
     grid-column: 2;
     grid-row: 1 / span 3;
 }
@@ -201,7 +201,7 @@ button {
     display: block;
 }*/
 
-#e5, #e6, #e7 {
+#e3-1 {
     grid-column: 2;
     grid-row: 1 / span 3;
 }
