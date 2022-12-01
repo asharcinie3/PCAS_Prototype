@@ -151,11 +151,13 @@ button {
 }
 
 #tc1-right {
+    flex: right;
     display: flex;
     flex-direction: column;
 }
 
 #tc1-left {
+    flex: left;
     display: flex;
     flex-direction: column;
 }
