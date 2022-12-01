@@ -113,8 +113,8 @@ button {
 .case1, .case2, .case3 {
     display: grid;
     justify-content: center;
-    grid-template-columns: 15% 65%;
-    grid-template-rows: 125px 125px 125px 125px 125px;
+    grid-template-columns: 10% 65%;
+    grid-template-rows: 100px 100px 100px 100px 100px;
     grid-gap: 30px;
     padding: -5px 15px;
 }
