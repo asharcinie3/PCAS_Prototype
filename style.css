@@ -144,7 +144,7 @@ button {
 
 .tab1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 30px 30px;
@@ -156,14 +156,7 @@ table {
     border-spacing: 5px .5rem;
     text-align: left;
     border: 1px solid;
-}
-
-#pv1 {
-    width: 470px;
-}
-
-#col1 {
-    width: 370px;
+    width: 500px;
 }
 
 /*case 2 & case 3 page*/
