@@ -159,11 +159,15 @@ table {
 }
 
 #pv1 {
-    width: 500px;
+    width: 470px;
 }
 
 #col1 {
-    width: 400px;
+    width: 370px;
+}
+
+#a {
+    width: 200px;
 }
 
 /*case 2 & case 3 page*/
