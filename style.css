@@ -166,10 +166,13 @@ table {
     word-wrap:break-word;
     border-spacing: 5px .5rem;
     text-align: left;
-    border: 1px solid;
     width: 700px;
     height: 150px;
     margin: 0px;
+}
+
+table, th {
+    border: 1px solid;
 }
 
 #col1 {
