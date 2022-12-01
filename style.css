@@ -169,9 +169,10 @@ table {
     width: 700px;
     height: 150px;
     margin: 0px;
+    border-collapse: collapse
 }
 
-table, th {
+table, th, td {
     border: 1px solid;
 }
 
