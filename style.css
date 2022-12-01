@@ -35,10 +35,6 @@ h3 {
     text-align: center;
 }
 
-.card h3 {
-    color: orange;
-}
-
 .card-hidden {
     display: none;
 }
@@ -212,4 +208,8 @@ th, td {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+button h3 {
+    color: orange;
 }
