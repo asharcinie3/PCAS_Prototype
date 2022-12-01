@@ -107,6 +107,7 @@ button {
 /*case one page*/
 .case1 p {
     padding: 15px 15px;
+    text-align: left;
 }
 
 .case1, .case2, .case3 {
