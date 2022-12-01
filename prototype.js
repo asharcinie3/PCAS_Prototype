@@ -1,3 +1,4 @@
+/* cover functionality for case one page */
 document.getElementById("b1").onclick = () =>  {
     document.getElementById('e1').style.display = "block";
     document.getElementById('e2').style.display = "none";
@@ -24,5 +25,24 @@ document.getElementById("b4").onclick = () =>  {
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
+}
+
+/* cover functionality for case two page */
+document.getElementById("b5").onclick = () =>  {
+    document.getElementById('e5').style.display = "block";
+    document.getElementById('e6').style.display = "none";
+    document.getElementById('e7').style.display = "none";
+}
+
+document.getElementById("b6").onclick = () =>  {
+    document.getElementById('e6').style.display = "block";
+    document.getElementById('e5').style.display = "none";
+    document.getElementById('e7').style.display = "none";
+}
+
+document.getElementById("b7").onclick = () =>  {
+    document.getElementById('e7').style.display = "block";
+    document.getElementById('e5').style.display = "none";
+    document.getElementById('e6').style.display = "none";
 }
 
