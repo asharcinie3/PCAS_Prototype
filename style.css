@@ -103,13 +103,17 @@ button {
 }
 
 /*case one page*/
+.case1 p {
+    margin: 15px 15px;
+}
+
 .case1 {
     display: grid;
     justify-content: center;
     grid-template-columns: 15% 65%;
     grid-template-rows: 125px 125px 125px 125px 125px;
     grid-gap: 30px;
-    padding: 15px 15px;
+    padding: -5px 15px;
 }
 
 #c1-1 {
@@ -146,6 +150,7 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 15px 15px;
 }
 
 table {
@@ -169,7 +174,7 @@ table {
     grid-template-columns: 15% 65%;
     grid-template-rows: 57.9% 57.9% 57.9%;
     grid-gap: 30px;
-    padding: 20px 20px;
+    padding: -5px 20px;
 }
 
 #c2-1, #c3-1 {
