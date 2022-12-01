@@ -149,6 +149,7 @@ button {
 }
 
 #tc1-right {
+    flex: right;
     display: flex;
     padding: 15px 15px;
     flex-direction: column;
@@ -156,6 +157,7 @@ button {
 }
 
 #tc1-left {
+    flex: left;
     display: flex;
     flex-direction: column;
     width: 45%;
