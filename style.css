@@ -76,6 +76,7 @@ h3 {
     padding: 0;
     list-style-type: none;
     padding-top: 9px;
+    padding-bottom: 15px;
 }
 
 .nav li {
@@ -105,7 +106,7 @@ button {
 
 /*case one page*/
 .case1 p {
-    padding: 30px 30px;
+    padding: 15px 15px;
 }
 
 .case1 {
@@ -151,7 +152,7 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 30px;
+    padding: 15px 15px;
 }
 
 table {
