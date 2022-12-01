@@ -177,11 +177,6 @@ table {
     word-wrap:break-word;
     border-spacing: 5px .5rem;
     text-align: left;
-    width: 650px;
-    height: 150px;
-    margin: 0px;
-    border-collapse: collapse;
-    border: 1px solid;
 }
 
 th, td {
@@ -189,12 +184,20 @@ th, td {
     padding: 15px;
 }
 
+#ct1 {
+    width: 650px;
+    height: 150px;
+    margin: 0px;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
 #t2-1 {
     width: 400px;
 }
 
 #t2-2 {
-    width: 400;
+    width: 400px;
 }
 
 /*alignment for all button cards*/
