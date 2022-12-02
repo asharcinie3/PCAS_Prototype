@@ -136,9 +136,20 @@ button {
     display: grid;
     justify-content: center;
     grid-template-columns: 15% 65%;
-    grid-template-rows: 115px 115px 115px 115px 400px;
     grid-gap: 30px;
     padding: -5px 15px;
+}
+
+.case1 {
+    grid-template-rows: 115px 115px 115px 115px 300px;
+}
+
+.case2 {
+    grid-template-rows: 115px 115px 115px 115px 500px;
+}
+
+.case3 {
+    grid-template-rows: 115px 115px 115px 115px 200px;
 }
 
 #c1-1, #c2-1, #c3-1 {
