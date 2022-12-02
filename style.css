@@ -108,7 +108,9 @@ button {
     background-color: rgb(165, 165, 165);
     text-align: center;
     width: 700px;
-    height: 500px;
+    height: 350px;
+    padding: 30px 30px;
+    margin-top: 30px;
 }
 
 /*button h3 {
