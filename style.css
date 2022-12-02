@@ -146,18 +146,19 @@ button {
     grid-template-columns: 15% 65%;
     grid-gap: 30px;
     padding: -5px 15px;
+    margin-bottom: 30px;
 }
 
 .case1 {
-    grid-template-rows: 115px 115px 115px 115px 300px;
+    grid-template-rows: 115px 115px 115px 115px 270px;
 }
 
 .case2 {
-    grid-template-rows: 115px 115px 115px 115px 500px;
+    grid-template-rows: 115px 115px 115px 115px 450px;
 }
 
 .case3 {
-    grid-template-rows: 115px 115px 115px 115px 200px;
+    grid-template-rows: 115px 115px 115px 115px 115px;
 }
 
 #c1-1, #c2-1, #c3-1 {
