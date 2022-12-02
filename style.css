@@ -111,6 +111,7 @@ button {
     height: 350px;
     padding: 30px 30px;
     margin-top: 30px;
+    margin: 0 auto;
 }
 
 /*button h3 {
@@ -134,7 +135,7 @@ button {
     display: grid;
     justify-content: center;
     grid-template-columns: 15% 65%;
-    grid-template-rows: 115px 115px 115px 115px 115px;
+    grid-template-rows: 115px 115px 115px 115px 115px 115px;
     grid-gap: 30px;
     padding: -5px 15px;
 }
