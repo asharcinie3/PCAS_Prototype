@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-color: #fff;
     font-family: Helvetica, sans-serif;
@@ -71,6 +76,7 @@ h3 {
     text-align: center;
     position: sticky;
     top: 0;
+    background-color: #fff;
 }
 
 .nav {
