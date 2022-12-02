@@ -104,6 +104,13 @@ button {
     border-color: #fff;
 }
 
+.animation {
+    background-color: rgb(165, 165, 165);
+    text-align: center;
+    width: 700px;
+    height: 500px;
+}
+
 /*button h3 {
     color: #F08605;
 }*/
