@@ -109,7 +109,7 @@ button {
     border-color: #fff;
 }
 
-.replay {
+.replay, .pause {
     height: 12px;
     padding: 0px;
 }
