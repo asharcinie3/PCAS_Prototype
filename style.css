@@ -157,7 +157,7 @@ video {
 }
 
 .case1 {
-    grid-template-rows: 115px 115px 115px 115px 325px;
+    grid-template-rows: 115px 115px 115px 115px 355px;
 }
 
 .case2 {
@@ -166,10 +166,6 @@ video {
 
 .case3 {
     grid-template-rows: 115px 115px 115px 115px 115px;
-}
-
-.extra {
-    grid-template-rows: 115px 115px 115px 115px 355px;
 }
 
 #c1-1, #c2-1, #c3-1 {
