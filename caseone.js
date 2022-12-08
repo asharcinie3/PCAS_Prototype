@@ -26,17 +26,13 @@ document.getElementById("b4").onclick = () =>  {
     document.getElementById('e3').style.display = "none";
 }
 
-var video = document.getElementById('videoContent');
-videoAutoPlay = video.play();
+var vid = document.getElementById("myVideo");
 
-document.getElementById("playVideo").addEventListener("click", function(){     
-   this.classList.toggle('is-playing');     
-   if(this.classList.contains('is-playing')) {
-       this.innerHTML = "Play"
-       video.pause();
-   } else {
-       this.innerHTML = "Pause";
-       video.play();
-   }
-});
+function playVid() {
+    vid.play();
+}
+
+function pauseVid() {
+    vid.pause();
+}
 
