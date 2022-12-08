@@ -26,13 +26,5 @@ document.getElementById("b4").onclick = () =>  {
     document.getElementById('e3').style.display = "none";
 }
 
-var vid = document.getElementById("myVideo");
 
-function playVid() {
-    vid.play();
-}
-
-function pauseVid() {
-    vid.pause();
-}
 
