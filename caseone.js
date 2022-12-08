@@ -39,6 +39,10 @@ document.getElementById("r1").onclick = () =>  {
     vid1.play();
 }
 
+document.getElementById("p1").onclick = () =>  {
+    vid1.pause();
+}
+
 document.getElementById("r2").onclick = () =>  {
     vid2.play();
 }
