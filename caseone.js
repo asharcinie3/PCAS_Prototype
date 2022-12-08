@@ -34,18 +34,18 @@ var vid2 = document.getElementById("vid2");
 var vid3 = document.getElementById("vid3");
 var vid4 = document.getElementById("vid4");
 
-document.getElementById("p1").onclick = () =>  {
+document.getElementById("r1").onclick = () =>  {
     vid1.play();
 }
 
-document.getElementById("p2").onclick = () =>  {
+document.getElementById("r2").onclick = () =>  {
     vid2.play();
 }
 
-document.getElementById("p3").onclick = () =>  {
+document.getElementById("r3").onclick = () =>  {
     vid3.play();
 }
 
-document.getElementById("p4").onclick = () =>  {
+document.getElementById("r4").onclick = () =>  {
     vid4.play();
 }
