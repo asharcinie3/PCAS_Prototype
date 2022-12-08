@@ -1,18 +1,8 @@
-var vid1 = document.getElementById("vid1");
-var vid2 = document.getElementById("vid2");
-var vid3 = document.getElementById("vid3");
-var vid4 = document.getElementById("vid4");
-
-
 document.getElementById("b1").onclick = () =>  {
     document.getElementById('e1').style.display = "block";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
     document.getElementById('e4').style.display = "none";
-}
-
-document.getElementById("p1").onclick = () =>  {
-    vid1.play();
 }
 
 document.getElementById("b2").onclick = () =>  {
@@ -39,11 +29,23 @@ document.getElementById("b4").onclick = () =>  {
     document.getElementById('e3').style.display = "none";
 }
 
-function playVid() {
-    vid.play();
+var vid1 = document.getElementById("vid1");
+var vid2 = document.getElementById("vid2");
+var vid3 = document.getElementById("vid3");
+var vid4 = document.getElementById("vid4");
+
+document.getElementById("p1").onclick = () =>  {
+    vid1.play();
 }
 
-function pauseVid() {
-    vid.pause();
+document.getElementById("p2").onclick = () =>  {
+    vid2.play();
 }
 
+document.getElementById("p3").onclick = () =>  {
+    vid3.play();
+}
+
+document.getElementById("p4").onclick = () =>  {
+    vid4.play();
+}

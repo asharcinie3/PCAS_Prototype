@@ -27,12 +27,15 @@
             </div>
             <div class="card" id="c1-2">
                 <button id="b2"><b>Scenario 2</b></button>
+                <button id="p2"><img class="play" src="play.png"></button>
             </div>
             <div class="card" id="c1-3">
                 <button id="b3"><b>Scenario 3</b></button>
+                <button id="p3"><img class="play" src="play.png"></button>
             </div>
             <div class="card" id="c1-4">
                 <button id="b4"><b>Scenario 4</b></button>
+                <button id="p4"><img class="play" src="play.png"></button>
             </div>
 
             <div class="card card-hidden c1" id="e1">
@@ -73,7 +76,7 @@
 
             <div class="card card-hidden c1" id="e2">
                 <h3>Moving & Then Static: Scenario 2</h3>
-                <video id="myvid"><source src="Scenario2.mp4" type="video/mp4"></video>
+                <video id="vid2"><source src="Scenario2.mp4" type="video/mp4"></video>
                 <p>In this scenario, the pedestrian will be moving in the positive y direction with an initial speed of 10 km/h (13.89m/s). 
                     They will begin at (35,-7) and continue until they come to a stop at (35,-2) giving them a final speed
                     of 0 km/h. This leaves the pedestrian outside of the collision zone. This is because the width of the 
@@ -110,7 +113,7 @@
 
             <div class="card card-hidden c1" id="e3">
                 <h3>Moving & Then Static: Scenario 3</h3>
-                <video id="myvid3"><source src="Scenario3.mp4" type="video/mp4"></video>
+                <video id="vid3"><source src="Scenario3.mp4" type="video/mp4"></video>
                 <p>In this scenario, the pedestrian will be moving in the positive y direction with an initial speed of 10 km/h
                     (13.89m/s). They will begin at (35,-7) and continue until they come to a stop at (35,-3) giving them a final speed
                     of 0 km/h. The pedestrian does not end in the collision zone. This is because the width of the 
@@ -147,7 +150,7 @@
 
             <div class="card card-hidden c1" id="e4">
                 <h3>Moving & Then Static: Scenario 4</h3>
-                <video autoplay><source src="Scenario4.mp4" type="video/mp4"></video>
+                <video id="vid4"><source src="Scenario4.mp4" type="video/mp4"></video>
                 <p>In this scenario, the pedestrian will be moving in the positive y direction with an initial speed of 10 km/h (13.89m/s). 
                     They will begin at (35,-7) and continue until they come to a stop at (35,-5) giving them a final speed 
                     of 0 km/h. The pedestrian does not end in the collision zone nor is ever within 4.5 meters of the autonomous vehicle. In this scenario, 
