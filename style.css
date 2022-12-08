@@ -168,6 +168,10 @@ video {
     grid-template-rows: 115px 115px 115px 115px 115px;
 }
 
+.extra {
+    grid-template-rows: 115px 115px 115px 115px 355px;
+}
+
 #c1-1, #c2-1, #c3-1 {
     grid-column: 1;
     grid-row: 1;
