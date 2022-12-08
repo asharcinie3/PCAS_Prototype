@@ -5,6 +5,7 @@ var vid4 = document.getElementById("vid4");
 
 document.getElementById("b1").onclick = () =>  {
     document.getElementById('e1').style.display = "block";
+    vid1.play();
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
     document.getElementById('e4').style.display = "none";
@@ -13,12 +14,14 @@ document.getElementById("b1").onclick = () =>  {
 document.getElementById("b2").onclick = () =>  {
     document.getElementById('e2').style.display = "block";
     document.getElementById('e1').style.display = "none";
+    vid2.play();
     document.getElementById('e3').style.display = "none";
     document.getElementById('e4').style.display = "none";
 }
 
 document.getElementById("b3").onclick = () =>  {
     document.getElementById('e3').style.display = "block";
+    vid3.play();
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e4').style.display = "none";
@@ -26,12 +29,33 @@ document.getElementById("b3").onclick = () =>  {
 
 document.getElementById("b4").onclick = () =>  {
     document.getElementById('e4').style.display = "block";
+    vid4.play();
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
 }
 
-document.getElementById("play1").onclick = () =>  {
+document.getElementById("r1").onclick = () =>  {
+    vid1.play();
+    vid1.currentTime = 0;
+}
+
+document.getElementById("r2").onclick = () =>  {
+    vid2.play();
+    vid2.currentTime = 0;
+}
+
+document.getElementById("r3").onclick = () =>  {
+    vid3.play();
+    vid3.currentTime = 0;
+}
+
+document.getElementById("r4").onclick = () =>  {
+    vid4.play();
+    vid4.currentTime = 0;
+}
+
+/*document.getElementById("play1").onclick = () =>  {
     vid1.play();
 }
 
@@ -61,4 +85,4 @@ document.getElementById("play4").onclick = () =>  {
 
 document.getElementById("pause4").onclick = () =>  {
     vid4.pause();
-}
+}*/
