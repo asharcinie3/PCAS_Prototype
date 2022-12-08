@@ -111,6 +111,7 @@ button {
 
 .play {
     height: 12px;
+    padding: 0px;
 }
 
 .animation {
