@@ -112,6 +112,7 @@ button {
 .replay {
     height: 12px;
     padding: 0px;
+    margin-left: 5px;
 }
 
 .animation {
