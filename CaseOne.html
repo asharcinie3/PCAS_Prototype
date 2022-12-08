@@ -63,7 +63,7 @@
                         <tr>
                             <th scope="row">Vehicle</th>
                             <td>(0, 0)</td>    
-                            <td>(33.5, 0)</td>  
+                            <td>(33, 0)</td>  
                             <td>13.89 m/s</td>
                             <td>0 m/s</td>
                     </table>
@@ -100,7 +100,7 @@
                         <tr>
                             <th scope="row">Vehicle</th>
                             <td>(0, 0)</td>    
-                            <td>(33.5, 0)</td>  
+                            <td>(33, 0)</td>  
                             <td>13.89 m/s</td>
                             <td>0 m/s</td>
                     </table>
@@ -149,11 +149,9 @@
                 <div class="animation">Placeholder for animation</div>
                 <p>In this scenario, the pedestrian will be moving in the positive y direction with an initial speed of 10 km/h (13.89m/s). 
                     They will begin at (35,-7) and continue until they come to a stop at (35,-5) giving them a final speed 
-                    of 0 km/h. The pedestrian does not end in the collision zone. This is because the width of the 
-                    autonomous vehicle is 2.0 meters wide. In this scenario, the PCAS will input the data from the stereo camera and
-                    determine that it initially needs to slow down, as the system will not exceed 16km/h (4.4m/s) if a pedestrian is within 4.5 meters away.
-                    The stereo camera will then detect that the pedestrian has stopped outside of the collision zone and will accelerate at a steady
-                    rate of 0.25g, accelerating at 2.45m/s, until it reaches a steady state velocity.
+                    of 0 km/h. The pedestrian does not end in the collision zone nor is ever within 4.5 meters of the autonomous vehicle. In this scenario, 
+                    the PCAS does not need to communicate with the brake by wire system and the autonomous vehicle will continue with its initial velocity 
+                    of 50km/h (13.89m/s).
                 </p>
                  <div class="tab">
                     <table class="ct1">
