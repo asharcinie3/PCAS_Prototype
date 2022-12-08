@@ -120,6 +120,10 @@ button {
     margin-bottom: 15px;
 }
 
+video {
+    width: 804px;
+}
+
 /*button h3 {
     color: #F08605;
 }*/
