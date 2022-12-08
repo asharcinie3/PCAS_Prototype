@@ -251,3 +251,8 @@ th, td {
 .ct2-2 {
     width: 300px;
 }
+
+.tabDescrip {
+    font-weight: lighter;
+    text-align: center;
+}
