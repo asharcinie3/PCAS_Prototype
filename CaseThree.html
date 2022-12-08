@@ -22,17 +22,20 @@
         <div class="case3">
             <div class="card" id="c3-1">
                 <button id="b8"><b>Scenario 8</b></button>
+                <button id="r8"><img class="replay" src="replay.png"></button>
             </div>
             <div class="card" id="c3-2">
                 <button id="b9"><b>Scenario 9</b></button>
+                <button id="r9"><img class="replay" src="replay.png"></button>
             </div>
             <div class="card" id="c3-3">
                 <button id="b10"><b>Scenario 10</b></button>
+                <button id="r10"><img class="replay" src="replay.png"></button>
             </div>
 
             <div class="card card-hidden c3" id="e8">
                 <h3>Static: Scenario 8</h3>
-                <div class="animation">Placeholder for animation</div>
+                <video id="vid8"><source src="Scenario8.mp4" type="video/mp4"></video>
                 <p>In this scenario, the pedestrian will start at the position of (35,0) and will not move for the duration 
                     of the scenario. This will leave the pedestrian in the path of the autonomous vehicle for the whole scenario. 
                     The PCAS will respond by communicating with the brake by wire system to decelerate the vehicle to 16 km/h (4.44m/s)
@@ -42,7 +45,7 @@
 
             <div class="card card-hidden c3" id="e9">
                 <h3>Static: Scenario 9</h3>
-                <div class="animation">Placeholder for animation</div>
+                <video id="vid9"><source src="Scenario9.mp4" type="video/mp4"></video>
                 <p>In this scenario, the pedestrian will start at the position of (35,-2) and will not move for the duration of the
                     scenario. This will leave the pedestrian outside of the collision zone for the whole scenario. The PCAS will respond by
                     communicating with the brake by wire system to decelerate the vehicle to 16 km/h (4.44m/s) while the pedestrian 
@@ -52,7 +55,7 @@
 
             <div class="card card-hidden c3" id="e10">
                 <h3>Static: Scenario 10</h3>
-                <div class="animation">Placeholder for animation</div>
+                <video id="vid10"><source src="Scenario10.mp4" type="video/mp4"></video>
                 <p>In this scenario, the pedestrian will start at the position of (35,-4) and will not move for the duration of the
                     scenario.The PCAS will respond by communicating with the brake by wire system to decelerate the vehicle to 16 km/h (4.44m/s) 
                     while the pedestrian is within 4.5 meters of the vehicle. Once the vehicle is outside of the 4.5 meter area, it will 
