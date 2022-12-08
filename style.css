@@ -227,6 +227,7 @@ table {
     word-wrap:break-word;
     border-spacing: 5px .5rem;
     text-align: left;
+    margin-bottom: 30px;
 }
 
 th, td {
@@ -250,9 +251,4 @@ th, td {
 
 .ct2-2 {
     width: 300px;
-}
-
-.tabDescrip {
-    font-weight: lighter;
-    text-align: center;
 }
