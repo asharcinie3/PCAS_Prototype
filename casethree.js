@@ -25,12 +25,15 @@ document.getElementById("b10").onclick = () =>  {
 
 document.getElementById("r8").onclick = () =>  {
     vid8.play();
+    vid8.currentTime = 0;
 }
 
 document.getElementById("r9").onclick = () =>  {
     vid9.play();
+    vid9.currentTime = 0;
 }
 
 document.getElementById("r10").onclick = () =>  {
     vid10.play();
+    vid10.currentTime = 0;
 }
