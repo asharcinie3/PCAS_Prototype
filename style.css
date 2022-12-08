@@ -121,7 +121,8 @@ button {
 }
 
 video {
-    width: 804px;
+    width: 825px;
+    margin-top: 30px;
 }
 
 /*button h3 {
