@@ -36,26 +36,22 @@ document.getElementById("b4").onclick = () =>  {
 }
 
 document.getElementById("r1").onclick = () =>  {
-    vid1.play();
     vid1.currentTime = 0;
 }
 
 document.getElementById("r2").onclick = () =>  {
-    vid2.play();
     vid2.currentTime = 0;
 }
 
 document.getElementById("r3").onclick = () =>  {
-    vid3.play();
     vid3.currentTime = 0;
 }
 
 document.getElementById("r4").onclick = () =>  {
-    vid4.play();
     vid4.currentTime = 0;
 }
 
-/*document.getElementById("play1").onclick = () =>  {
+document.getElementById("play1").onclick = () =>  {
     vid1.play();
 }
 
@@ -85,4 +81,4 @@ document.getElementById("play4").onclick = () =>  {
 
 document.getElementById("pause4").onclick = () =>  {
     vid4.pause();
-}*/
+}
