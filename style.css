@@ -150,7 +150,7 @@ video {
 .case1, .case2, .case3 {
     display: grid;
     justify-content: center;
-    grid-template-columns: 15% 65%;
+    grid-template-columns: 20% 65%;
     grid-gap: 30px;
     padding: -5px 15px;
     margin-bottom: 30px;
