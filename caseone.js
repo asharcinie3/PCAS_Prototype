@@ -3,7 +3,7 @@ var vid2 = document.getElementById("vid2");
 var vid3 = document.getElementById("vid3");
 var vid4 = document.getElementById("vid4");
 
-document.getElementById("b1").onclick = () =>  {
+document.getElementById("c1-1").onclick = () =>  {
     document.getElementById('e1').style.display = "block";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
