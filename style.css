@@ -119,10 +119,11 @@ button {
     background-color: #fff;
     border-color: #fff;
     margin: 0px;
+    font-size: 20px;
 }
 
 .replay, .pause, .play {
-    height: 12px;
+    height: 15px;
     padding: 0px;
 }
 
