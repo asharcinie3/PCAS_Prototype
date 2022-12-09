@@ -40,6 +40,17 @@ h3 {
     text-align: center;
 }
 
+.bcard {
+    display: flex;
+    flex-direction: column;
+}
+
+.videoFuncs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .card-hidden {
     display: none;
 }
