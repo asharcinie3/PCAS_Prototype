@@ -37,18 +37,22 @@ document.getElementById("b4").onclick = () =>  {
 
 document.getElementById("r1").onclick = () =>  {
     vid1.currentTime = 0;
+    vid1.play();
 }
 
 document.getElementById("r2").onclick = () =>  {
     vid2.currentTime = 0;
+    vid2.play();
 }
 
 document.getElementById("r3").onclick = () =>  {
     vid3.currentTime = 0;
+    vid3.play();
 }
 
 document.getElementById("r4").onclick = () =>  {
     vid4.currentTime = 0;
+    vid4.play();
 }
 
 document.getElementById("play1").onclick = () =>  {
