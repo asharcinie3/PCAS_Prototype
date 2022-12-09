@@ -4,36 +4,57 @@ var vid3 = document.getElementById("vid7");
 
 document.getElementById("b5").onclick = () =>  {
     document.getElementById('e5').style.display = "block";
-    vid5.play();
     document.getElementById('e6').style.display = "none";
     document.getElementById('e7').style.display = "none";
 }
 
 document.getElementById("b6").onclick = () =>  {
     document.getElementById('e6').style.display = "block";
-    vid6.play();
     document.getElementById('e5').style.display = "none";
     document.getElementById('e7').style.display = "none";
 }
 
 document.getElementById("b7").onclick = () =>  {
     document.getElementById('e7').style.display = "block";
-    vid7.play();
     document.getElementById('e5').style.display = "none";
     document.getElementById('e6').style.display = "none";
 }
 
 document.getElementById("r5").onclick = () =>  {
-    vid5.play();
     vid5.currentTime = 0;
+    vid5.play();
 }
 
 document.getElementById("r6").onclick = () =>  {
-    vid6.play();
     vid6.currentTime = 0;
+    vid6.play();
 }
 
 document.getElementById("r7").onclick = () =>  {
-    vid7.play();
     vid7.currentTime = 0;
+    vid7.play();
+}
+
+document.getElementById("play5").onclick = () =>  {
+    vid5.play();
+}
+
+document.getElementById("play6").onclick = () =>  {
+    vid6.play();
+}
+
+document.getElementById("play7").onclick = () =>  {
+    vid7.play();
+}
+
+document.getElementById("pause5").onclick = () =>  {
+    vid5.pause();
+}
+
+document.getElementById("pause6").onclick = () =>  {
+    vid6.pause();
+}
+
+document.getElementById("pause7").onclick = () =>  {
+    vid7.pause();
 }
