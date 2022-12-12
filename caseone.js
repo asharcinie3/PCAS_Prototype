@@ -82,7 +82,7 @@ document.getElementById("play4").onclick = () =>  {
 }
 
 vid1.addEventListener('timeupdate', function(){
-    if(vid1.currentTime >= 3.0 && vid1.currentTime <= 3.2) {
+    if(vid1.currentTime >= 3.0 && vid1.currentTime <= 3.3) {
         document.getElementById("o1").disabled = false;
         document.getElementById("o1").style.background='#FF0000';
     }
