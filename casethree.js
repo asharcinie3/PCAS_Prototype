@@ -79,7 +79,7 @@ pausebtn10.onclick = () =>  {
 
 /* override case 8 */
 vid8.addEventListener('timeupdate', function(){
-    if(vid8.currentTime >= 3.2 && vid8.currentTime <= 4.0) {
+    if(vid8.currentTime >= 2.0 && vid8.currentTime <= 4.0) {
         document.getElementById("o8").disabled = false;
         document.getElementById("o8").style.background='#FF0000';
     }
