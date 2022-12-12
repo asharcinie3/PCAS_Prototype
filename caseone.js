@@ -108,6 +108,11 @@ vid1.addEventListener('timeupdate', function(){
     }
 });
 
+vid2.onended = () => {
+    document.getElementById("play2").disabled = true; 
+    document.getElementById("play2").style.background = '#ccc';
+}
+/*
 vid2.addEventListener('timeupdate', function() {
     if(vid2.currentTime > 3) {
         document.getElementById("play2").disabled = true; 
@@ -118,7 +123,7 @@ vid2.addEventListener('timeupdate', function() {
         document.getElementById("play2").disabled = false; 
         document.getElementById("play2").style.background = '#fff';
     }
-});
+});*/
 
 
 // Get the modal
