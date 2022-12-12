@@ -13,6 +13,11 @@ var playbtn2 = document.getElementById("play2");
 var playbtn3 = document.getElementById("play3");
 var playbtn4 = document.getElementById("play4");
 
+var pausebtn1 = document.getElementById("pause1");
+var pausebtn2 = document.getElementById("pause2");
+var pausebtn3 = document.getElementById("pause3");
+var pausebtn4 = document.getElementById("pause4");
+
 scenariobtn1.onclick = () =>  {
     vid1.currentTime = 0;
     document.getElementById('e1').style.display = "block";
@@ -67,18 +72,18 @@ document.getElementById("r4").onclick = () =>  {
     vid4.play();
 }
 
-document.getElementById("pause1").onclick = () =>  {
+pausebtn1.onclick = () =>  {
     vid1.pause();
 }
-document.getElementById("pause2").onclick = () =>  {
+pausebtn2.onclick = () =>  {
     vid2.pause();
 }
 
-document.getElementById("pause3").onclick = () =>  {
+pausebtn3.onclick = () =>  {
     vid3.pause();
 }
 
-document.getElementById("pause4").onclick = () =>  {
+pausebtn4.onclick = () =>  {
     vid4.pause();
 }
 
