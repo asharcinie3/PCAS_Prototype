@@ -103,7 +103,7 @@ vid1.addEventListener('timeupdate', function(){
     }
 });
 
-ocument.getElementById("o1").onclick = () =>  {
+document.getElementById("o1").onclick = () =>  {
     vid1.pause();
 }
 
