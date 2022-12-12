@@ -78,7 +78,7 @@ pausebtn7.onclick = () =>  {
 }
 
 /* add functionality for override */
-
+/* video 6 */
 vid6.addEventListener('timeupdate', function(){
     if(vid6.currentTime >= 2.3 && vid6.currentTime <= 2.7) {
         document.getElementById("o6").disabled = false;
@@ -106,4 +106,33 @@ btn.onclick = function() {
 span.onclick = function() {
   modal.style.display = "none";
   vid6.play();
+}
+
+
+/* video 7 */
+vid7.addEventListener('timeupdate', function(){
+    if(vid7.currentTime >= 2.3 && vid7.currentTime <= 2.7) {
+        document.getElementById("o7").disabled = false;
+        document.getElementById("o7").style.background='#FF0000';
+    }
+    else {
+        document.getElementById("o7").disabled = true;
+        document.getElementById("o7").style.background='#D3D3D3';
+    }
+});
+
+
+var modal2 = document.getElementById("myModal7");
+var btn2 = document.getElementById("o7");
+
+// When the user clicks on the button, open the modal
+btn2.onclick = function() {
+  modal2.style.display = "block";
+  vid7.pause();
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal2.style.display = "none";
+  vid7.play();
 }
