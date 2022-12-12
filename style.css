@@ -125,7 +125,7 @@ button {
     font-size: 18px;
 }
 
-.replay, .pause, .play {
+.replay, .pause, .play, .override {
     height: 15px;
     padding: 0px;
 }
