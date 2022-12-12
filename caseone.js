@@ -114,7 +114,7 @@ playbtn4.onclick = () =>  {
 }
 
 vid1.addEventListener('timeupdate', function(){
-    if(vid1.currentTime >= 2.8 && vid1.currentTime <= 3.2) {
+    if(vid1.currentTime >= 2.7 && vid1.currentTime <= 3.2) {
         document.getElementById("o1").disabled = false;
         document.getElementById("o1").style.background='#FF0000';
     }
