@@ -20,21 +20,6 @@ document.getElementById("b7").onclick = () =>  {
     document.getElementById('e6').style.display = "none";
 }
 
-document.getElementById("r5").onclick = () =>  {
-    vid5.currentTime = 0;
-    vid5.play();
-}
-
-document.getElementById("r6").onclick = () =>  {
-    vid6.currentTime = 0;
-    vid6.play();
-}
-
-document.getElementById("r7").onclick = () =>  {
-    vid7.currentTime = 0;
-    vid7.play();
-}
-
 document.getElementById("play5").onclick = () =>  {
     vid5.play();
 }
