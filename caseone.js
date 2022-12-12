@@ -82,3 +82,8 @@ document.getElementById("play4").onclick = () =>  {
 document.getElementById("pause4").onclick = () =>  {
     vid4.pause();
 }
+
+if (vid1.currentTime() > 2 && vid1.currentTime() < 3) {
+    document.getElementById("o1").style.background='#FF0000';
+    document.getElementById("o1").enabled = true;
+}
