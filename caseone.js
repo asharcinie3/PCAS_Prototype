@@ -55,23 +55,6 @@ scenariobtn4.onclick = () =>  {
     document.getElementById('e3').style.display = "none";
 }
 
-document.getElementById("play1").onclick = () =>  {
-    vid1.play();
-}
-
-document.getElementById("play2").onclick = () =>  {
-    vid2.play();
-}
-
-document.getElementById("play3").onclick = () =>  {
-    vid3.play();
-}
-
-document.getElementById("play4").onclick = () =>  {
-    vid4.play();
-}
-
-
 pausebtn1.onclick = () =>  {
     vid1.pause();
 }
@@ -87,25 +70,41 @@ pausebtn4.onclick = () =>  {
     vid4.pause();
 }
 
-replaybtn1.onclick = () =>  {
+document.getElementById("r1").onclick = () =>  {
     vid1.currentTime = 0;
     document.getElementById("play1").disabled = false; 
     document.getElementById("play1").style.background = '#fff';
     vid1.play();
 }
 
-replaybtn2.onclick = () =>  {
+document.getElementById("r2").onclick = () =>  {
     vid2.currentTime = 0;
     vid2.play();
 }
 
-replaybtn3.onclick = () =>  {
+document.getElementById("r3").onclick = () =>  {
     vid3.currentTime = 0;
     vid3.play();
 }
 
-replaybtn4.onclick = () =>  {
+document.getElementById("r4").onclick = () =>  {
     vid4.currentTime = 0;
+    vid4.play();
+}
+
+document.getElementById("play1").onclick = () =>  {
+    vid1.play();
+}
+
+document.getElementById("play2").onclick = () =>  {
+    vid2.play();
+}
+
+document.getElementById("play3").onclick = () =>  {
+    vid3.play();
+}
+
+document.getElementById("play4").onclick = () =>  {
     vid4.play();
 }
 
