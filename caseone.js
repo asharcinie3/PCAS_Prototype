@@ -125,7 +125,7 @@ vid1.addEventListener('timeupdate', function(){
 });
 
 // Get the modal
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("myModal6");
 
 // Get the button that opens the modal
 var btn = document.getElementById("o1");
