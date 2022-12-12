@@ -83,7 +83,7 @@ document.getElementById("pause4").onclick = () =>  {
     vid4.pause();
 }
 
-introVid.addEventListener('timeupdate', function(){
+vid1.addEventListener('timeupdate', function(){
     if(vid1.currentTime > 1) {
         document.getElementById("o1").enabled = true;
     }
