@@ -125,7 +125,9 @@ button {
     font-size: 18px;
 }
 
-.replay, .pause, .play {
+.replay, 
+.pause, 
+.play {
     height: 15px;
     padding: 0px;
 }
@@ -162,19 +164,32 @@ video {
 }*/
 
 /*alignment for all button cards*/
-#c1-1, #c1-2, #c1-3, #c1-4, #c2-1, #c2-2, #c2-3, #c3-1, #c3-2, #c3-3 {
+#c1-1, 
+#c1-2, 
+#c1-3, 
+#c1-4, 
+#c2-1, 
+#c2-2, 
+#c2-3, 
+#c3-1, 
+#c3-2, 
+#c3-3 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /*case one-three page*/
-.case1 p, .case2 p, .case3 p {
+.case1 p, 
+.case2 p, 
+.case3 p {
     padding: 15px 15px;
     text-align: left;
 }
 
-.case1, .case2, .case3 {
+.case1, 
+.case2, 
+.case3 {
     display: grid;
     justify-content: center;
     grid-template-columns: 18% 65%;
@@ -195,17 +210,23 @@ video {
     grid-template-rows: 115px 115px 115px 115px 115px;
 }
 
-#c1-1, #c2-1, #c3-1 {
+#c1-1, 
+#c2-1, 
+#c3-1 {
     grid-column: 1;
     grid-row: 1;
 }
 
-#c1-2, #c2-2, #c3-2 {
+#c1-2, 
+#c2-2, 
+#c3-2 {
     grid-column: 1;
     grid-row: 2;
 }
 
-#c1-3, #c2-3, #c3-3 {
+#c1-3, 
+#c2-3, 
+#c3-3 {
     grid-column: 1;
     grid-row: 3;
 }
@@ -215,11 +236,15 @@ video {
     grid-row: 4;
 }
 
-#e1, #e5, #e8 {
+#e1, 
+#e5, 
+#e8 {
     display: block;
 }
 
-.c1, .c2, .c3 {
+.c1, 
+.c2, 
+.c3 {
     grid-column: 2;
     grid-row: 1 / span 5;
 }
@@ -305,7 +330,8 @@ th, td {
   }
   
   /* The Close Button */
-  .close, .close2 {
+  .close, 
+  .close2 {
     color: black;
     float: center;
     font-size: 16px;
@@ -314,7 +340,9 @@ th, td {
   }
   
   .close:hover,
-  .close:focus {
+  .close:focus,
+  .close2:hover,
+  .close2:focus {
     text-decoration: none;
     cursor: pointer;
   }
