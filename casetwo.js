@@ -10,6 +10,10 @@ var playbtn5 = document.getElementById("play5");
 var playbtn6 = document.getElementById("play6");
 var playbtn7 = document.getElementById("play7");
 
+var pausebtn5 = document.getElementById("pause5");
+var pausebtn6 = document.getElementById("pause6");
+var pausebtn7 = document.getElementById("pause7");
+
 scenariobtn5.onclick = () =>  {
     document.getElementById('e5').style.display = "block";
     document.getElementById('e6').style.display = "none";
@@ -47,14 +51,14 @@ playbtn7.onclick = () =>  {
     vid7.play();
 }
 
-document.getElementById("pause5").onclick = () =>  {
+pausebtn5.onclick = () =>  {
     vid5.pause();
 }
 
-document.getElementById("pause6").onclick = () =>  {
+pausebtn6.onclick = () =>  {
     vid6.pause();
 }
 
-document.getElementById("pause7").onclick = () =>  {
+pausebtn7.onclick = () =>  {
     vid7.pause();
 }
