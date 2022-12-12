@@ -109,7 +109,7 @@ var modal = document.getElementById("myModal");
 var btn = document.getElementById("o1");
 
 // Get the <span> element that closes the modal
-var closeBtn = document.getElementsById("closeModal1")[0];
+var closeBtn = document.getElementsById("closeModal1");
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
@@ -117,7 +117,7 @@ btn.onclick = function() {
   vid1.pause();
 }
 
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on button, close the modal
 closeBtn.onclick = () => {
   modal.style.display = "none";
   vid1.play();
