@@ -111,7 +111,7 @@ span.onclick = function() {
 
 /* video 7 */
 vid7.addEventListener('timeupdate', function(){
-    if(vid7.currentTime >= 1.8 && vid7.currentTime <= 2.5) {
+    if(vid7.currentTime >= 2.0 && vid7.currentTime <= 2.5) {
         document.getElementById("o7").disabled = false;
         document.getElementById("o7").style.background='#FF0000';
     }
