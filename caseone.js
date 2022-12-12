@@ -18,11 +18,6 @@ var pausebtn2 = document.getElementById("pause2");
 var pausebtn3 = document.getElementById("pause3");
 var pausebtn4 = document.getElementById("pause4");
 
-/*var replaybtn1 = document.getElementById("replay1");
-var replaybtn2 = document.getElementById("replay2");
-var replaybtn3 = document.getElementById("replay3");
-var replaybtn4 = document.getElementById("replay4");*/
-
 scenariobtn1.onclick = () =>  {
     vid1.currentTime = 0;
     document.getElementById('e1').style.display = "block";
@@ -70,29 +65,6 @@ pausebtn4.onclick = () =>  {
     vid4.pause();
 }
 
-/*document.getElementById("r1").onclick = () =>  {
-    vid1.currentTime = 0;
-    vid1.play();
-
-    document.getElementById("play1").disabled = false; 
-    document.getElementById("play1").style.background = '#fff';
-}
-
-document.getElementById("r2").onclick = () =>  {
-    vid2.currentTime = 0;
-    vid2.play();
-}
-
-document.getElementById("r3").onclick = () =>  {
-    vid3.currentTime = 0;
-    vid3.play();
-}
-
-document.getElementById("r4").onclick = () =>  {
-    vid4.currentTime = 0;
-    vid4.play();
-}*/
-
 document.getElementById("play1").onclick = () =>  {
     vid1.play();
 }
@@ -110,7 +82,7 @@ document.getElementById("play4").onclick = () =>  {
 }
 
 vid1.addEventListener('timeupdate', function(){
-    if(vid1.currentTime < 2.5 || vid1.currentTime > 3) {
+    if(vid1.currentTime < 2.6 || vid1.currentTime > 3.3) {
         document.getElementById("o1").disabled = true;
         document.getElementById("o1").style.background='#D3D3D3';
     }
@@ -118,54 +90,7 @@ vid1.addEventListener('timeupdate', function(){
         document.getElementById("o1").disabled = false;
         document.getElementById("o1").style.background='#FF0000';
     }
-
-    /*if(vid1.currentTime > 3) {
-        document.getElementById("play1").disabled = true; 
-        document.getElementById("play1").style.background = '#ccc';
-    }
-
-    if(vid1.currentTime < 3) {
-        document.getElementById("play1").disabled = false; 
-        document.getElementById("play1").style.background = '#fff';
-    }*/
 });
-
-/*vid1.onended = () => {
-    document.getElementById("play1").disabled = true; 
-    document.getElementById("play1").style.background = '#ccc';
-}
-if (vid1.currentTime == 0) {
-    document.getElementById("play1").disabled = false; 
-    document.getElementById("play1").style.background = '#fff';
-}
-
-vid2.onended = () => {
-    document.getElementById("play2").disabled = true; 
-    document.getElementById("play2").style.background = '#ccc';
-}
-
-vid3.onended = () => {
-    document.getElementById("play3").disabled = true; 
-    document.getElementById("play3").style.background = '#ccc';
-}
-
-vid4.onended = () => {
-    document.getElementById("play4").disabled = true; 
-}*/
-
-/*
-vid2.addEventListener('timeupdate', function() {
-    if(vid2.currentTime > 3) {
-        document.getElementById("play2").disabled = true; 
-        document.getElementById("play2").style.background = '#ccc';
-    }
-
-    if(vid2.currentTime < 3) {
-        document.getElementById("play2").disabled = false; 
-        document.getElementById("play2").style.background = '#fff';
-    }
-});*/
-
 
 // Get the modal
 var modal = document.getElementById("myModal");
