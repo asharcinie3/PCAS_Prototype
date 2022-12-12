@@ -6,10 +6,21 @@ var scenariobtn5 = document.getElementById("b5");
 var scenariobtn6 = document.getElementById("b6");
 var scenariobtn7 = document.getElementById("b7");
 
+var playbtn5 = document.getElementById("play5");
+var playbtn6 = document.getElementById("play6");
+var playbtn7 = document.getElementById("play7");
+
 scenariobtn5.onclick = () =>  {
     document.getElementById('e5').style.display = "block";
     document.getElementById('e6').style.display = "none";
     document.getElementById('e7').style.display = "none";
+
+    /*vid5.currentTime = 0;
+    vid5.pause();
+    vid6.currentTime = 0;
+    vid6.pause();
+    vid7.currentTime = 0;
+    vid7.pause();*/
 }
 
 scenariobtn6.onclick = () =>  {
@@ -24,15 +35,15 @@ scenariobtn7.onclick = () =>  {
     document.getElementById('e6').style.display = "none";
 }
 
-document.getElementById("play5").onclick = () =>  {
+playbtn5.onclick = () =>  {
     vid5.play();
 }
 
-document.getElementById("play6").onclick = () =>  {
+playbtn6.onclick = () =>  {
     vid6.play();
 }
 
-document.getElementById("play7").onclick = () =>  {
+playbtn7.onclick = () =>  {
     vid7.play();
 }
 
