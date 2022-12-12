@@ -121,9 +121,11 @@ vid7.addEventListener('timeupdate', function(){
     }
 });
 
-/*
 var modal2 = document.getElementById("myModal7");
 var btn2 = document.getElementById("o7");
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementsById("cl7");
 
 // When the user clicks on the button, open the modal
 btn2.onclick = function() {
@@ -132,7 +134,7 @@ btn2.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span2.onclick = function() {
   modal2.style.display = "none";
   vid7.play();
-}*/
+}
