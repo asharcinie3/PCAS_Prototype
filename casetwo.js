@@ -99,7 +99,7 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
-  vid1.pause();
+  vid6.pause();
 }
 
 // When the user clicks on <span> (x), close the modal
