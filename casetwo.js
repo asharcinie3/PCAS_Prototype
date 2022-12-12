@@ -80,7 +80,7 @@ pausebtn7.onclick = () =>  {
 /* add functionality for override */
 /* video 6 */
 vid6.addEventListener('timeupdate', function(){
-    if(vid6.currentTime >= 2.3 && vid6.currentTime <= 2.7) {
+    if(vid6.currentTime >= 2.4 && vid6.currentTime <= 2.8) {
         document.getElementById("o6").disabled = false;
         document.getElementById("o6").style.background='#FF0000';
     }
@@ -111,7 +111,7 @@ span.onclick = function() {
 
 /* video 7 */
 vid7.addEventListener('timeupdate', function(){
-    if(vid7.currentTime >= 2.2 && vid7.currentTime <= 2.5) {
+    if(vid7.currentTime >= 2.4 && vid7.currentTime <= 2.6) {
         document.getElementById("o7").disabled = false;
         document.getElementById("o7").style.background='#FF0000';
     }
