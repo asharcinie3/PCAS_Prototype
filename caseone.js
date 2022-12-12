@@ -124,33 +124,33 @@ span.onclick = function() {
 
 vid2.addEventListener('timeupdate', function() {
     if(vid2.currentTime > 3) {
-        document.getElementById("play1").disabled = true; 
+        document.getElementById("play2").disabled = true; 
     }
 
     if(vid2.currentTime < 3) {
-        document.getElementById("play1").disabled = false; 
+        document.getElementById("play2").disabled = false; 
     }
 });
 
 vid3.addEventListener('timeupdate', function() {
     if(vid3.currentTime > 3) {
-        document.getElementById("play1").disabled = true; 
+        document.getElementById("play3").disabled = true; 
     }
 
     if(vid3.currentTime < 3) {
-        document.getElementById("play1").disabled = false; 
+        document.getElementById("play3").disabled = false; 
     }
 });
 
 vid4.addEventListener('timeupdate', function() {
     if(vid4.currentTime > 3) {
-        document.getElementById("play1").disabled = true;
-        document.getElementById("play1").style.background='#ccc';       
+        document.getElementById("play4").disabled = true;
+        document.getElementById("play4").style.background='#ccc';       
     }
 
     if(vid4.currentTime < 3) {
-        document.getElementById("play1").disabled = false; 
-        document.getElementById("play1").style.background='#fff';    
+        document.getElementById("play4").disabled = false; 
+        document.getElementById("play4").style.background='#fff';    
     }
 });
 
