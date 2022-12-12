@@ -103,10 +103,9 @@ vid1.addEventListener('timeupdate', function(){
     }
 });
 
-/*if (vid1.currentTime() > 1) {
-    document.getElementById("o1").style.background='#FF0000';
-    document.getElementById("o1").enabled = true;
-}*/
+ocument.getElementById("o1").onclick = () =>  {
+    vid1.pause();
+}
 
 // Get the modal
 var modal = document.getElementById("myModal");
