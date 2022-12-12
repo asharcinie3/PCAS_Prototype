@@ -304,8 +304,8 @@ th, td {
   .close {
     color: black;
     float: center;
-    font-size: 18px;
-    border-color: #fff;
+    font-size: 16px;
+    background-color: #fff;
     border-color: #fff;
   }
   
