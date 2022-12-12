@@ -24,10 +24,6 @@ var replaybtn3 = document.getElementById("replay3");
 var replaybtn4 = document.getElementById("replay4");
 
 scenariobtn1.onclick = () =>  {
-    vid1.currentTime = 0;
-    vid2.currentTime = 0;
-    vid3.currentTime = 0;
-    vid4.currentTime = 0;
     document.getElementById('e1').style.display = "block";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
@@ -35,10 +31,6 @@ scenariobtn1.onclick = () =>  {
 }
 
 scenariobtn2.onclick = () =>  {
-    vid1.currentTime = 0;
-    vid2.currentTime = 0;
-    vid3.currentTime = 0;
-    vid4.currentTime = 0;
     document.getElementById('e2').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e3').style.display = "none";
@@ -46,10 +38,6 @@ scenariobtn2.onclick = () =>  {
 }
 
 scenariobtn3.onclick = () =>  {
-    vid1.currentTime = 0;
-    vid2.currentTime = 0;
-    vid3.currentTime = 0;
-    vid4.currentTime = 0;
     document.getElementById('e3').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
@@ -57,10 +45,6 @@ scenariobtn3.onclick = () =>  {
 }
 
 scenariobtn4.onclick = () =>  {
-    vid1.currentTime = 0;
-    vid2.currentTime = 0;
-    vid3.currentTime = 0;
-    vid4.currentTime = 0;
     document.getElementById('e4').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
