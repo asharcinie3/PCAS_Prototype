@@ -2,19 +2,23 @@ var vid1 = document.getElementById("vid5");
 var vid2 = document.getElementById("vid6");
 var vid3 = document.getElementById("vid7");
 
-document.getElementById("b5").onclick = () =>  {
+var scenariobtn5 = document.getElementById("b5");
+var scenariobtn6 = document.getElementById("b6");
+var scenariobtn7 = document.getElementById("b7");
+
+scenariobtn5.onclick = () =>  {
     document.getElementById('e5').style.display = "block";
     document.getElementById('e6').style.display = "none";
     document.getElementById('e7').style.display = "none";
 }
 
-document.getElementById("b6").onclick = () =>  {
+scenariobtn6.onclick = () =>  {
     document.getElementById('e6').style.display = "block";
     document.getElementById('e5').style.display = "none";
     document.getElementById('e7').style.display = "none";
 }
 
-document.getElementById("b7").onclick = () =>  {
+scenariobtn7.onclick = () =>  {
     document.getElementById('e7').style.display = "block";
     document.getElementById('e5').style.display = "none";
     document.getElementById('e6').style.display = "none";
