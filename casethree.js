@@ -18,18 +18,39 @@ scenariobtn8.onclick = () =>  {
     document.getElementById('e8').style.display = "block";
     document.getElementById('e9').style.display = "none";
     document.getElementById('e10').style.display = "none";
+
+    vid8.currentTime = 0;
+    vid8.pause();
+    vid9.currentTime = 0;
+    vid9.pause();
+    vid10.currentTime = 0;
+    vid10.pause();
 }
 
 scenariobtn9.onclick = () =>  {
     document.getElementById('e9').style.display = "block";
     document.getElementById('e8').style.display = "none";
     document.getElementById('e10').style.display = "none";
+
+    vid8.currentTime = 0;
+    vid8.pause();
+    vid9.currentTime = 0;
+    vid9.pause();
+    vid10.currentTime = 0;
+    vid10.pause();
 }
 
 scenariobtn10.onclick = () =>  {
     document.getElementById('e10').style.display = "block";
     document.getElementById('e8').style.display = "none";
     document.getElementById('e9').style.display = "none";
+
+    vid8.currentTime = 0;
+    vid8.pause();
+    vid9.currentTime = 0;
+    vid9.pause();
+    vid10.currentTime = 0;
+    vid10.pause();
 }
 
 playbtn8.onclick = () =>  {
