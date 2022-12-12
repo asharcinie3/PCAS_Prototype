@@ -37,6 +37,8 @@ document.getElementById("b4").onclick = () =>  {
 
 document.getElementById("r1").onclick = () =>  {
     vid1.currentTime = 0;
+    document.getElementById("play1").disabled = false; 
+    document.getElementById("play1").style.background = '#fff';
     vid1.play();
 }
 
@@ -107,7 +109,7 @@ vid1.addEventListener('timeupdate', function(){
     }*/
 });
 
-if (vid1.onended == true && vid1.currentTime < 3) {
+vid1.onended = () => {
     document.getElementById("play1").disabled = true; 
     document.getElementById("play1").style.background = '#ccc';
 }
