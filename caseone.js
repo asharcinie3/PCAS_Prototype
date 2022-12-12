@@ -65,19 +65,19 @@ pausebtn4.onclick = () =>  {
     vid4.pause();
 }
 
-document.getElementById("play1").onclick = () =>  {
+playbtn1.onclick = () =>  {
     vid1.play();
 }
 
-document.getElementById("play2").onclick = () =>  {
+playbtn2.onclick = () =>  {
     vid2.play();
 }
 
-document.getElementById("play3").onclick = () =>  {
+playbtn3.onclick = () =>  {
     vid3.play();
 }
 
-document.getElementById("play4").onclick = () =>  {
+playbtn4.onclick = () =>  {
     vid4.play();
 }
 
