@@ -80,7 +80,7 @@ pausebtn7.onclick = () =>  {
 /* add functionality for override */
 
 vid6.addEventListener('timeupdate', function(){
-    if(vid6.currentTime >= 2.6 && vid6.currentTime <= 3.0) {
+    if(vid6.currentTime >= 2.5 && vid6.currentTime <= 3.0) {
         document.getElementById("o6").disabled = false;
         document.getElementById("o6").style.background='#FF0000';
     }
