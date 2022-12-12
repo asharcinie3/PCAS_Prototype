@@ -89,3 +89,21 @@ vid6.addEventListener('timeupdate', function(){
         document.getElementById("o6").style.background='#D3D3D3';
     }
 });
+
+var modal = document.getElementById("myModal6");
+var btn = document.getElementById("o6");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+  vid1.pause();
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  vid6.play();
+}
