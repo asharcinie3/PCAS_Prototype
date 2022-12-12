@@ -142,7 +142,7 @@ btn.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
-  if (vid1.currentTime < 3.3) {
+  if (vid1.currentTime < 3.2) {
     vid1.play();
   }
 }
