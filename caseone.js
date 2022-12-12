@@ -129,7 +129,7 @@ vid1.addEventListener('timeupdate', function(){
     }*/
 });
 
-vid1.onended = () => {
+if (vid1.onended || vid1.currentTime == 0) {
     document.getElementById("play1").disabled = true; 
     document.getElementById("play1").style.background = '#ccc';
 }
