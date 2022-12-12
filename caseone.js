@@ -3,7 +3,17 @@ var vid2 = document.getElementById("vid2");
 var vid3 = document.getElementById("vid3");
 var vid4 = document.getElementById("vid4");
 
-document.getElementById("b1").onclick = () =>  {
+var scenariobtn1 = document.getElementById("b1");
+var scenariobtn2 = document.getElementById("b2");
+var scenariobtn3 = document.getElementById("b3");
+var scenariobtn4 = document.getElementById("b4");
+
+var playbtn1 = document.getElementById("play1");
+var playbtn2 = document.getElementById("play2");
+var playbtn3 = document.getElementById("play3");
+var playbtn4 = document.getElementById("play4");
+
+scenariobtn1.onclick = () =>  {
     vid1.currentTime = 0;
     document.getElementById('e1').style.display = "block";
     document.getElementById('e2').style.display = "none";
@@ -11,7 +21,7 @@ document.getElementById("b1").onclick = () =>  {
     document.getElementById('e4').style.display = "none";
 }
 
-document.getElementById("b2").onclick = () =>  {
+scenariobtn2.onclick = () =>  {
     vid2.currentTime = 0;
     document.getElementById('e2').style.display = "block";
     document.getElementById('e1').style.display = "none";
@@ -19,7 +29,7 @@ document.getElementById("b2").onclick = () =>  {
     document.getElementById('e4').style.display = "none";
 }
 
-document.getElementById("b3").onclick = () =>  {
+scenariobtn3.onclick = () =>  {
     vid3.currentTime = 0;
     document.getElementById('e3').style.display = "block";
     document.getElementById('e1').style.display = "none";
@@ -27,7 +37,7 @@ document.getElementById("b3").onclick = () =>  {
     document.getElementById('e4').style.display = "none";
 }
 
-document.getElementById("b4").onclick = () =>  {
+scenariobtn4.onclick = () =>  {
     vid4.currentTime = 0;
     document.getElementById('e4').style.display = "block";
     document.getElementById('e1').style.display = "none";
@@ -162,26 +172,3 @@ span.onclick = function() {
   modal.style.display = "none";
   vid1.play();
 }
-
-/*vid3.addEventListener('timeupdate', function() {
-    if(vid3.currentTime > 3) {
-        document.getElementById("play3").disabled = true; 
-    }
-
-    if(vid3.currentTime < 3) {
-        document.getElementById("play3").disabled = false; 
-    }
-});
-
-vid4.addEventListener('timeupdate', function() {
-    if(vid4.currentTime > 3) {
-        document.getElementById("play4").disabled = true;
-        document.getElementById("play4").style.background='#ccc';       
-    }
-
-    if(vid4.currentTime < 3) {
-        document.getElementById("play4").disabled = false; 
-        document.getElementById("play4").style.background='#fff';    
-    }
-});*/
-
