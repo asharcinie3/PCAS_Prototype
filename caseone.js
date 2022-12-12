@@ -121,6 +121,7 @@ vid2.onended = () => {
 
 vid3.onended = () => {
     document.getElementById("play3").disabled = true; 
+    document.getElementById("play3").style.background = '#ccc';
 }
 
 vid4.onended = () => {
