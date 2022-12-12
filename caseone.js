@@ -110,7 +110,7 @@ document.getElementById("play4").onclick = () =>  {
 }
 
 vid1.addEventListener('timeupdate', function(){
-    if(vid1.currentTime < 2.2 || vid1.currentTime > 3) {
+    if(vid1.currentTime < 2.5 || vid1.currentTime > 3) {
         document.getElementById("o1").disabled = true;
         document.getElementById("o1").style.background='#D3D3D3';
     }
