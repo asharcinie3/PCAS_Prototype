@@ -51,42 +51,44 @@ document.getElementById("r4").onclick = () =>  {
     vid4.play();
 }
 
-document.getElementById("play1").onclick = () =>  {
-    vid1.play();
-}
-
 document.getElementById("pause1").onclick = () =>  {
     vid1.pause();
 }
-
-document.getElementById("play2").onclick = () =>  {
-    vid2.play();
-}
-
 document.getElementById("pause2").onclick = () =>  {
     vid2.pause();
-}
-
-document.getElementById("play3").onclick = () =>  {
-    vid3.play();
 }
 
 document.getElementById("pause3").onclick = () =>  {
     vid3.pause();
 }
 
-document.getElementById("play4").onclick = () =>  {
-    vid4.play();
-}
-
 document.getElementById("pause4").onclick = () =>  {
     vid4.pause();
 }
 
+document.getElementById("play2").onclick = () =>  {
+    vid2.play();
+}
+
+document.getElementById("play3").onclick = () =>  {
+    vid3.play();
+}
+
+document.getElementById("play4").onclick = () =>  {
+    vid4.play();
+}
+
+
 vid1.addEventListener('timeupdate', function(){
-    if(vid1.currentTime > 2 && vid1.currentTime < 3) {S
+    if(vid1.currentTime > 2) {
         document.getElementById("o1").disabled = false;
         document.getElementById("o1").style.background='#FF0000';
+    }
+
+    if(vid1.currentTime < 3) {
+        document.getElementById("play1").onclick = () =>  {
+            vid1.play();
+        }        
     }
 });
 
