@@ -120,26 +120,6 @@ replaybtn4.onclick = () =>  {
     vid4.play();
 }
 
-vid1.onended = () => {
-    playbtn1.disabled = true; 
-    playbtn1.style.background = '#ccc';
-}
-
-vid2.onended = () => {
-    playbtn2.disabled = true; 
-    playbtn2.style.background = '#ccc';
-}
-
-vid3.onended = () => {
-    playbtn3.disabled = true; 
-    playbtn3.style.background = '#ccc';
-}
-
-vid4.onended = () => {
-    playbtn4.disabled = true; 
-}
-
-
 vid1.addEventListener('timeupdate', function(){
     if(vid1.currentTime < 2 || vid1.currentTime > 3) {
         document.getElementById("o1").disabled = true;
@@ -160,6 +140,25 @@ vid1.addEventListener('timeupdate', function(){
         document.getElementById("play1").style.background = '#fff';
     }*/
 });
+
+vid1.onended = () => {
+    playbtn1.disabled = true; 
+    playbtn1.style.background = '#ccc';
+}
+
+vid2.onended = () => {
+    playbtn2.disabled = true; 
+    playbtn2.style.background = '#ccc';
+}
+
+vid3.onended = () => {
+    playbtn3.disabled = true; 
+    playbtn3.style.background = '#ccc';
+}
+
+vid4.onended = () => {
+    playbtn4.disabled = true; 
+}
 
 // Get the modal
 var modal = document.getElementById("myModal");
