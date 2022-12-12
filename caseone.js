@@ -19,47 +19,67 @@ var pausebtn3 = document.getElementById("pause3");
 var pausebtn4 = document.getElementById("pause4");
 
 scenariobtn1.onclick = () =>  {
-    vid1.currentTime = 0;
-    vid2.currentTime = 0;
-    vid3.currentTime = 0;
-    vid4.currentTime = 0;
     document.getElementById('e1').style.display = "block";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
     document.getElementById('e4').style.display = "none";
+
+    vid1.currentTime = 0;
+    vid1.pause();
+    vid2.currentTime = 0;
+    vid2.pause();
+    vid3.currentTime = 0;
+    vid3.pause();
+    vid4.currentTime = 0;
+    vid4.pause();
 }
 
-scenariobtn2.onclick = () =>  {
-    vid1.currentTime = 0;
-    vid2.currentTime = 0;
-    vid3.currentTime = 0;
-    vid4.currentTime = 0;    
+scenariobtn2.onclick = () =>  {  
     document.getElementById('e2').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e3').style.display = "none";
     document.getElementById('e4').style.display = "none";
+
+    vid1.currentTime = 0;
+    vid1.pause();
+    vid2.currentTime = 0;
+    vid2.pause();
+    vid3.currentTime = 0;
+    vid3.pause();
+    vid4.currentTime = 0;
+    vid4.pause();
 }
 
 scenariobtn3.onclick = () =>  {
-    vid1.currentTime = 0;
-    vid2.currentTime = 0;
-    vid3.currentTime = 0;
-    vid4.currentTime = 0;
     document.getElementById('e3').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e4').style.display = "none";
+
+    vid1.currentTime = 0;
+    vid1.pause();
+    vid2.currentTime = 0;
+    vid2.pause();
+    vid3.currentTime = 0;
+    vid3.pause();
+    vid4.currentTime = 0;
+    vid4.pause();
 }
 
 scenariobtn4.onclick = () =>  {
-    vid1.currentTime = 0;
-    vid2.currentTime = 0;
-    vid3.currentTime = 0;
-    vid4.currentTime = 0;
     document.getElementById('e4').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
+
+    vid1.currentTime = 0;
+    vid1.pause();
+    vid2.currentTime = 0;
+    vid2.pause();
+    vid3.currentTime = 0;
+    vid3.pause();
+    vid4.currentTime = 0;
+    vid4.pause();
 }
 
 pausebtn1.onclick = () =>  {
