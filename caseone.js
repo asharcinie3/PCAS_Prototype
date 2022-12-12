@@ -86,7 +86,7 @@ document.getElementById("pause4").onclick = () =>  {
 vid1.addEventListener('timeupdate', function(){
     if(vid1.currentTime > 1) {
         document.getElementById("o1").enabled = true;
-        document.getElementById("o1").style.background='FF0000';
+        document.getElementById("o1").style.background='#FF0000';
     }
 });
 
