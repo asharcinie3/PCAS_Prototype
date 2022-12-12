@@ -88,3 +88,21 @@ vid8.addEventListener('timeupdate', function(){
         document.getElementById("o8").style.background='#D3D3D3';
     }
 });
+
+var modal = document.getElementById("myModal8");
+var btn = document.getElementById("o8");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+  vid8.pause();
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  vid8.play();
+}
