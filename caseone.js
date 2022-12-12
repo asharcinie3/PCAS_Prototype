@@ -121,5 +121,6 @@ btn.onclick = function() {
 span.onclick = function() {
   modal.style.display = "none";
   window.setTimeout(pauseVid, 3000);
+  vid1.currentTime = vid1.currentTime - 3;
   vid1.play();
 }
