@@ -127,7 +127,7 @@ vid1.addEventListener('timeupdate', function(){
     }*/
 });
 
-if (vid1.onended || vid1.currentTime < 3) {
+if (vid1.onended || vid1.currentTime > 3) {
     document.getElementById("play1").disabled = true; 
     document.getElementById("play1").style.background = '#ccc';
 }
