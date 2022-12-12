@@ -82,7 +82,6 @@ document.getElementById("play4").onclick = () =>  {
     vid4.play();
 }
 
-
 vid1.addEventListener('timeupdate', function(){
     if(vid1.currentTime > 2) {
         document.getElementById("o1").disabled = false;
@@ -121,7 +120,37 @@ btn.onclick = function() {
 span.onclick = function() {
   modal.style.display = "none";
   vid1.play();
-  document.getElementById("o1").disabled = true;
-  document.getElementById("o1").style.background='#D3D3D3';
 }
+
+vid2.addEventListener('timeupdate', function() {
+    if(vid2.currentTime > 3) {
+        document.getElementById("play1").disabled = true; 
+    }
+
+    if(vid2.currentTime < 3) {
+        document.getElementById("play1").disabled = false; 
+    }
+});
+
+vid3.addEventListener('timeupdate', function() {
+    if(vid3.currentTime > 3) {
+        document.getElementById("play1").disabled = true; 
+    }
+
+    if(vid3.currentTime < 3) {
+        document.getElementById("play1").disabled = false; 
+    }
+});
+
+vid4.addEventListener('timeupdate', function() {
+    if(vid4.currentTime > 3) {
+        document.getElementById("play1").disabled = true;
+        document.getElementById("play1").style.background='#ccc';       
+    }
+
+    if(vid4.currentTime < 3) {
+        document.getElementById("play1").disabled = false; 
+        document.getElementById("play1").style.background='#fff';    
+    }
+});
 
