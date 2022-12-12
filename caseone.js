@@ -114,7 +114,7 @@ playbtn4.onclick = () =>  {
 }
 
 vid1.addEventListener('timeupdate', function(){
-    if(vid1.currentTime >= 3.0 && vid1.currentTime <= 3.3) {
+    if(vid1.currentTime >= 3.0 && vid1.currentTime <= 3.4) {
         document.getElementById("o1").disabled = false;
         document.getElementById("o1").style.background='#FF0000';
     }
@@ -142,5 +142,7 @@ btn.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
-  vid1.play();
+  if (vid1.currentTime < 3.3) {
+    vid1.play();
+  }
 }
