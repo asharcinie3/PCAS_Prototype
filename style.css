@@ -34,7 +34,7 @@ h3 {
 .videoFuncs {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 107px;
     margin-top: 5px;
 }
