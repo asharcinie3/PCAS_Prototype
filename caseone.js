@@ -73,6 +73,9 @@ pausebtn4.onclick = () =>  {
 document.getElementById("r1").onclick = () =>  {
     vid1.currentTime = 0;
     vid1.play();
+
+    document.getElementById("play1").disabled = false; 
+    document.getElementById("play1").style.background = '#fff';
 }
 
 document.getElementById("r2").onclick = () =>  {
