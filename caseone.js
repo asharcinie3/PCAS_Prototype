@@ -70,7 +70,7 @@ pausebtn4.onclick = () =>  {
     vid4.pause();
 }
 
-document.getElementById("r1").onclick = () =>  {
+replaybtn1.onclick = () =>  {
     vid1.currentTime = 0;
     vid1.play();
 }
