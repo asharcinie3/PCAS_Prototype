@@ -70,7 +70,7 @@ pausebtn4.onclick = () =>  {
     vid4.pause();
 }
 
-replaybtn1.onclick = () =>  {
+document.getElementById("r1").onclick = () =>  {
     vid1.currentTime = 0;
     vid1.play();
 }
@@ -130,6 +130,10 @@ vid1.addEventListener('timeupdate', function(){
 vid1.onended = () => {
     document.getElementById("play1").disabled = true; 
     document.getElementById("play1").style.background = '#ccc';
+}
+if (vid1.currentTime == 0) {
+    document.getElementById("play1").disabled = false; 
+    document.getElementById("play1").style.background = '#fff';
 }
 
 vid2.onended = () => {
