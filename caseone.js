@@ -82,13 +82,13 @@ document.getElementById("play4").onclick = () =>  {
 }
 
 vid1.addEventListener('timeupdate', function(){
-    if(vid1.currentTime < 3.0 && vid1.currentTime > 3.2) {
-        document.getElementById("o1").disabled = true;
-        document.getElementById("o1").style.background='#D3D3D3';
-    }
-    else {
+    if(vid1.currentTime >= 3.0 && vid1.currentTime <= 3.2) {
         document.getElementById("o1").disabled = false;
         document.getElementById("o1").style.background='#FF0000';
+    }
+    else {
+        document.getElementById("o1").disabled = true;
+        document.getElementById("o1").style.background='#D3D3D3';
     }
 });
 
