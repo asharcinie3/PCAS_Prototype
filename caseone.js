@@ -131,7 +131,7 @@ vid1.onended = () => {
     document.getElementById("play1").disabled = true; 
     document.getElementById("play1").style.background = '#ccc';
 }
-if (vid1.currentTime == 0) {
+vid1.onplay = () => {
     document.getElementById("play1").disabled = false; 
     document.getElementById("play1").style.background = '#fff';
 }
