@@ -120,8 +120,8 @@ btn.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
-  window.setTimeout(pauseVid, 3000);
-  vid1.currentTime = vid1.currentTime - 3;
   vid1.play();
+  document.getElementById("o1").disabled = true;
+  document.getElementById("o1").style.background='#D3D3D3';
 }
 
