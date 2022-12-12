@@ -145,4 +145,8 @@ span.onclick = function() {
   if (vid1.currentTime < 3.2) {
     vid1.play();
   }
+  else {
+    document.getElementById("o1").disabled = true;
+    document.getElementById("o1").style.background='#D3D3D3';
+  }
 }

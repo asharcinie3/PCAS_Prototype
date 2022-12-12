@@ -104,5 +104,11 @@ btn.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
-  vid8.play();
+  if (vid8.currentTime < 4.0) {
+    vid8.play();
+  } else {
+    document.getElementById("o8").disabled = true;
+    document.getElementById("o8").style.background='#D3D3D3';
+  }
+  
 }
