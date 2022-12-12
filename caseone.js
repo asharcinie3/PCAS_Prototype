@@ -105,10 +105,12 @@ vid1.addEventListener('timeupdate', function(){
 vid2.addEventListener('timeupdate', function() {
     if(vid2.currentTime > 3) {
         document.getElementById("play2").disabled = true; 
+        document.getElementById("play2").style.background = '#ccc';
     }
 
     if(vid2.currentTime < 3) {
         document.getElementById("play2").disabled = false; 
+        document.getElementById("play2").style.background = '#fff';
     }
 });
 
