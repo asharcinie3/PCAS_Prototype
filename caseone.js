@@ -70,7 +70,7 @@ pausebtn4.onclick = () =>  {
     vid4.pause();
 }
 
-document.getElementById("r1").onclick = () =>  {
+/*document.getElementById("r1").onclick = () =>  {
     vid1.currentTime = 0;
     vid1.play();
 
@@ -78,7 +78,7 @@ document.getElementById("r1").onclick = () =>  {
     document.getElementById("play1").style.background = '#fff';
 }
 
-/*document.getElementById("r2").onclick = () =>  {
+document.getElementById("r2").onclick = () =>  {
     vid2.currentTime = 0;
     vid2.play();
 }
@@ -110,7 +110,7 @@ document.getElementById("play4").onclick = () =>  {
 }
 
 vid1.addEventListener('timeupdate', function(){
-    if(vid1.currentTime < 2 || vid1.currentTime > 3) {
+    if(vid1.currentTime < 2.2 || vid1.currentTime > 3) {
         document.getElementById("o1").disabled = true;
         document.getElementById("o1").style.background='#D3D3D3';
     }
