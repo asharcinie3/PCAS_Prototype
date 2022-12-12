@@ -101,6 +101,18 @@ vid1.addEventListener('timeupdate', function(){
         document.getElementById("play1").disabled = false; 
     }
 });
+
+vid2.addEventListener('timeupdate', function() {
+    if(vid2.currentTime > 3) {
+        document.getElementById("play2").disabled = true; 
+    }
+
+    if(vid2.currentTime < 3) {
+        document.getElementById("play2").disabled = false; 
+    }
+});
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -122,17 +134,7 @@ span.onclick = function() {
   vid1.play();
 }
 
-vid2.addEventListener('timeupdate', function() {
-    if(vid2.currentTime > 3) {
-        document.getElementById("play2").disabled = true; 
-    }
-
-    if(vid2.currentTime < 3) {
-        document.getElementById("play2").disabled = false; 
-    }
-});
-
-vid3.addEventListener('timeupdate', function() {
+/*vid3.addEventListener('timeupdate', function() {
     if(vid3.currentTime > 3) {
         document.getElementById("play3").disabled = true; 
     }
@@ -152,5 +154,5 @@ vid4.addEventListener('timeupdate', function() {
         document.getElementById("play4").disabled = false; 
         document.getElementById("play4").style.background='#fff';    
     }
-});
+});*/
 
