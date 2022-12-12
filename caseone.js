@@ -87,14 +87,13 @@ document.getElementById("play4").onclick = () =>  {
 }
 
 vid1.addEventListener('timeupdate', function(){
-    if(vid1.currentTime > 2) {
-        document.getElementById("o1").disabled = false;
-        document.getElementById("o1").style.background='#FF0000';
-    }
-
     if(vid1.currentTime < 2 || vid1.currentTime > 3) {
         document.getElementById("o1").disabled = true;
         document.getElementById("o1").style.background='#D3D3D3';
+    }
+    else {
+        document.getElementById("o1").disabled = false;
+        document.getElementById("o1").style.background='#FF0000';
     }
 
     /*if(vid1.currentTime > 3) {
@@ -120,12 +119,10 @@ vid2.onended = () => {
 
 vid3.onended = () => {
     document.getElementById("play3").disabled = true; 
-    document.getElementById("play3").style.background = '#ccc';
 }
 
 vid4.onended = () => {
     document.getElementById("play4").disabled = true; 
-    document.getElementById("play4").style.background = '#ccc';
 }
 
 /*
