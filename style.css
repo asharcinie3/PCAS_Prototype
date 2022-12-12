@@ -305,7 +305,7 @@ th, td {
   }
   
   /* The Close Button */
-  .close {
+  .close, .close2 {
     color: black;
     float: center;
     font-size: 16px;
