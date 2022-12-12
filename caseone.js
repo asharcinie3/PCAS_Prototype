@@ -4,6 +4,7 @@ var vid3 = document.getElementById("vid3");
 var vid4 = document.getElementById("vid4");
 
 document.getElementById("b1").onclick = () =>  {
+    vid1.currentTime = 0;
     document.getElementById('e1').style.display = "block";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
@@ -11,6 +12,7 @@ document.getElementById("b1").onclick = () =>  {
 }
 
 document.getElementById("b2").onclick = () =>  {
+    vid2.currentTime = 0;
     document.getElementById('e2').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e3').style.display = "none";
@@ -18,6 +20,7 @@ document.getElementById("b2").onclick = () =>  {
 }
 
 document.getElementById("b3").onclick = () =>  {
+    vid3.currentTime = 0;
     document.getElementById('e3').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
@@ -25,6 +28,7 @@ document.getElementById("b3").onclick = () =>  {
 }
 
 document.getElementById("b4").onclick = () =>  {
+    vid4.currentTime = 0;
     document.getElementById('e4').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
@@ -95,10 +99,12 @@ vid1.addEventListener('timeupdate', function(){
 
     if(vid1.currentTime > 3) {
         document.getElementById("play1").disabled = true; 
+        document.getElementById("play1").style.background = '#ccc';
     }
 
     if(vid1.currentTime < 3) {
         document.getElementById("play1").disabled = false; 
+        document.getElementById("play1").style.background = '#fff';
     }
 });
 
