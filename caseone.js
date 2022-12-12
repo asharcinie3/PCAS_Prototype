@@ -18,6 +18,11 @@ var pausebtn2 = document.getElementById("pause2");
 var pausebtn3 = document.getElementById("pause3");
 var pausebtn4 = document.getElementById("pause4");
 
+var replaybtn1 = document.getElementById("replay1");
+var replaybtn2 = document.getElementById("replay2");
+var replaybtn3 = document.getElementById("replay3");
+var replaybtn4 = document.getElementById("replay4");
+
 scenariobtn1.onclick = () =>  {
     vid1.currentTime = 0;
     document.getElementById('e1').style.display = "block";
@@ -50,27 +55,22 @@ scenariobtn4.onclick = () =>  {
     document.getElementById('e3').style.display = "none";
 }
 
-document.getElementById("r1").onclick = () =>  {
-    vid1.currentTime = 0;
-    document.getElementById("play1").disabled = false; 
-    document.getElementById("play1").style.background = '#fff';
+document.getElementById("play1").onclick = () =>  {
     vid1.play();
 }
 
-document.getElementById("r2").onclick = () =>  {
-    vid2.currentTime = 0;
+document.getElementById("play2").onclick = () =>  {
     vid2.play();
 }
 
-document.getElementById("r3").onclick = () =>  {
-    vid3.currentTime = 0;
+document.getElementById("play3").onclick = () =>  {
     vid3.play();
 }
 
-document.getElementById("r4").onclick = () =>  {
-    vid4.currentTime = 0;
+document.getElementById("play4").onclick = () =>  {
     vid4.play();
 }
+
 
 pausebtn1.onclick = () =>  {
     vid1.pause();
@@ -87,19 +87,25 @@ pausebtn4.onclick = () =>  {
     vid4.pause();
 }
 
-document.getElementById("play1").onclick = () =>  {
+replaybtn1.onclick = () =>  {
+    vid1.currentTime = 0;
+    document.getElementById("play1").disabled = false; 
+    document.getElementById("play1").style.background = '#fff';
     vid1.play();
 }
 
-document.getElementById("play2").onclick = () =>  {
+replaybtn2.onclick = () =>  {
+    vid2.currentTime = 0;
     vid2.play();
 }
 
-document.getElementById("play3").onclick = () =>  {
+replaybtn3.onclick = () =>  {
+    vid3.currentTime = 0;
     vid3.play();
 }
 
-document.getElementById("play4").onclick = () =>  {
+replaybtn4.onclick = () =>  {
+    vid4.currentTime = 0;
     vid4.play();
 }
 
