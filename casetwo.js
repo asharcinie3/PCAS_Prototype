@@ -109,7 +109,7 @@ span.onclick = function() {
 }
 
 
-/* video 7 */
+/* video 7 
 vid7.addEventListener('timeupdate', function(){
     if(vid7.currentTime >= 2.3 && vid7.currentTime <= 2.7) {
         document.getElementById("o7").disabled = false;
@@ -135,4 +135,4 @@ btn2.onclick = function() {
 span.onclick = function() {
   modal2.style.display = "none";
   vid7.play();
-}
+}*/
