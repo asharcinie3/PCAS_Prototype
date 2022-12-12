@@ -97,7 +97,7 @@ vid1.addEventListener('timeupdate', function(){
         document.getElementById("o1").style.background='#D3D3D3';
     }
 
-    if(vid1.currentTime > 3) {
+    /*if(vid1.currentTime > 3) {
         document.getElementById("play1").disabled = true; 
         document.getElementById("play1").style.background = '#ccc';
     }
@@ -105,13 +105,29 @@ vid1.addEventListener('timeupdate', function(){
     if(vid1.currentTime < 3) {
         document.getElementById("play1").disabled = false; 
         document.getElementById("play1").style.background = '#fff';
-    }
+    }*/
 });
+
+vid1.onended = () => {
+    document.getElementById("play1").disabled = true; 
+    document.getElementById("play1").style.background = '#ccc';
+}
 
 vid2.onended = () => {
     document.getElementById("play2").disabled = true; 
     document.getElementById("play2").style.background = '#ccc';
 }
+
+vid3.onended = () => {
+    document.getElementById("play3").disabled = true; 
+    document.getElementById("play3").style.background = '#ccc';
+}
+
+vid4.onended = () => {
+    document.getElementById("play4").disabled = true; 
+    document.getElementById("play4").style.background = '#ccc';
+}
+
 /*
 vid2.addEventListener('timeupdate', function() {
     if(vid2.currentTime > 3) {
