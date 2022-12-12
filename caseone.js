@@ -66,6 +66,10 @@ document.getElementById("pause4").onclick = () =>  {
     vid4.pause();
 }
 
+document.getElementById("play1").onclick = () =>  {
+    vid1.play();
+}
+
 document.getElementById("play2").onclick = () =>  {
     vid2.play();
 }
@@ -85,10 +89,12 @@ vid1.addEventListener('timeupdate', function(){
         document.getElementById("o1").style.background='#FF0000';
     }
 
+    if(vid1.currentTime > 3) {
+        document.getElementById("play1").disabled = true; 
+    }
+
     if(vid1.currentTime < 3) {
-        document.getElementById("play1").onclick = () =>  {
-            vid1.play();
-        }        
+        document.getElementById("play1").disabled = false; 
     }
 });
 
