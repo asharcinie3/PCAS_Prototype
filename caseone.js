@@ -131,10 +131,6 @@ vid1.onended = () => {
     document.getElementById("play1").disabled = true; 
     document.getElementById("play1").style.background = '#ccc';
 }
-vid1.onplay = () => {
-    document.getElementById("play1").disabled = false; 
-    document.getElementById("play1").style.background = '#fff';
-}
 
 vid2.onended = () => {
     document.getElementById("play2").disabled = true; 
