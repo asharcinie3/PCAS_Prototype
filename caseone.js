@@ -83,7 +83,7 @@ document.getElementById("pause4").onclick = () =>  {
     vid4.pause();
 }
 
-if (vid1.currentTime() > 2.0 && vid1.currentTime() < 3.0) {
+if (vid1.duration() > 2.0 && vid1.duration() < 3.0) {
     document.getElementById("o1").style.background='#FF0000';
     document.getElementById("o1").enabled = true;
 }
