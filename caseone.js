@@ -72,8 +72,8 @@ pausebtn4.onclick = () =>  {
 
 replaybtn1.onclick = () =>  {
     vid1.currentTime = 0;
-    document.getElementById("play1").disabled = false; 
-    document.getElementById("play1").style.background = '#fff';
+    playbtn1.disabled = false; 
+    playbtn1.style.background = '#fff';
     vid1.play();
 }
 
