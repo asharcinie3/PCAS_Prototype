@@ -124,3 +124,4 @@ span.onclick = function() {
   vid1.currentTime = vid1.currentTime - 3;
   vid1.play();
 }
+
