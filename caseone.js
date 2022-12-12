@@ -70,24 +70,24 @@ pausebtn4.onclick = () =>  {
     vid4.pause();
 }
 
-replaybtn1.onclick = () =>  {
+document.getElementById("r1").onclick = () =>  {
     vid1.currentTime = 0;
     document.getElementById("play1").disabled = false; 
     document.getElementById("play1").style.background = '#fff';
     vid1.play();
 }
 
-replaybtn2.onclick = () =>  {
+document.getElementById("r2").onclick = () =>  {
     vid2.currentTime = 0;
     vid2.play();
 }
 
-replaybtn3.onclick = () =>  {
+document.getElementById("r3").onclick = () =>  {
     vid3.currentTime = 0;
     vid3.play();
 }
 
-replaybtn4.onclick = () =>  {
+document.getElementById("r4").onclick = () =>  {
     vid4.currentTime = 0;
     vid4.play();
 }
