@@ -24,6 +24,7 @@ var replaybtn3 = document.getElementById("replay3");
 var replaybtn4 = document.getElementById("replay4");
 
 scenariobtn1.onclick = () =>  {
+    vid1.currentTime = 0;
     document.getElementById('e1').style.display = "block";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
@@ -31,6 +32,7 @@ scenariobtn1.onclick = () =>  {
 }
 
 scenariobtn2.onclick = () =>  {
+    vid2.currentTime = 0;
     document.getElementById('e2').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e3').style.display = "none";
@@ -38,6 +40,7 @@ scenariobtn2.onclick = () =>  {
 }
 
 scenariobtn3.onclick = () =>  {
+    vid3.currentTime = 0;
     document.getElementById('e3').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
@@ -45,27 +48,29 @@ scenariobtn3.onclick = () =>  {
 }
 
 scenariobtn4.onclick = () =>  {
+    vid4.currentTime = 0;
     document.getElementById('e4').style.display = "block";
     document.getElementById('e1').style.display = "none";
     document.getElementById('e2').style.display = "none";
     document.getElementById('e3').style.display = "none";
 }
 
-playbtn1.onclick = () =>  {
+document.getElementById("play1").onclick = () =>  {
     vid1.play();
 }
 
-playbtn2.onclick = () =>  {
+document.getElementById("play2").onclick = () =>  {
     vid2.play();
 }
 
-playbtn3.onclick = () =>  {
+document.getElementById("play3").onclick = () =>  {
     vid3.play();
 }
 
-playbtn4.onclick = () =>  {
+document.getElementById("play4").onclick = () =>  {
     vid4.play();
 }
+
 
 pausebtn1.onclick = () =>  {
     vid1.pause();
@@ -84,8 +89,8 @@ pausebtn4.onclick = () =>  {
 
 replaybtn1.onclick = () =>  {
     vid1.currentTime = 0;
-    playbtn1.disabled = false; 
-    playbtn1.style.background = '#fff';
+    document.getElementById("play1").disabled = false; 
+    document.getElementById("play1").style.background = '#fff';
     vid1.play();
 }
 
@@ -126,23 +131,37 @@ vid1.addEventListener('timeupdate', function(){
 });
 
 vid1.onended = () => {
-    playbtn1.disabled = true; 
-    playbtn1.style.background = '#ccc';
+    document.getElementById("play1").disabled = true; 
+    document.getElementById("play1").style.background = '#ccc';
 }
 
 vid2.onended = () => {
-    playbtn2.disabled = true; 
-    playbtn2.style.background = '#ccc';
+    document.getElementById("play2").disabled = true; 
+    document.getElementById("play2").style.background = '#ccc';
 }
 
 vid3.onended = () => {
-    playbtn3.disabled = true; 
-    playbtn3.style.background = '#ccc';
+    document.getElementById("play3").disabled = true; 
+    document.getElementById("play3").style.background = '#ccc';
 }
 
 vid4.onended = () => {
-    playbtn4.disabled = true; 
+    document.getElementById("play4").disabled = true; 
 }
+
+/*
+vid2.addEventListener('timeupdate', function() {
+    if(vid2.currentTime > 3) {
+        document.getElementById("play2").disabled = true; 
+        document.getElementById("play2").style.background = '#ccc';
+    }
+
+    if(vid2.currentTime < 3) {
+        document.getElementById("play2").disabled = false; 
+        document.getElementById("play2").style.background = '#fff';
+    }
+});*/
+
 
 // Get the modal
 var modal = document.getElementById("myModal");
