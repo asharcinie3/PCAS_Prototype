@@ -84,7 +84,7 @@ document.getElementById("pause4").onclick = () =>  {
 }
 
 vid1.addEventListener('timeupdate', function(){
-    if(vid1.currentTime > 2) {S
+    if(vid1.currentTime > 2 && vid1.currentTime < 3) {S
         document.getElementById("o1").disabled = false;
         document.getElementById("o1").style.background='#FF0000';
     }
