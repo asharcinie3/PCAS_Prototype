@@ -301,16 +301,15 @@ th, td {
   
   /* The Close Button */
   .close {
-    color: #fff;
+    color: black;
     float: center;
     font-size: 18px;
-    font-weight: bold;
-    background-color: black;
+    border-color: #fff;
+    border-color: #fff;
   }
   
   .close:hover,
   .close:focus {
-    color: black;
     text-decoration: none;
     cursor: pointer;
   }
