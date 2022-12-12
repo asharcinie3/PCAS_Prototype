@@ -102,11 +102,6 @@ vid1.addEventListener('timeupdate', function(){
         document.getElementById("play1").disabled = false; 
     }
 });
-
-document.getElementById("o1").onclick = () =>  {
-    vid1.pause();
-}
-
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -119,6 +114,7 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
+  vid1.pause();
 }
 
 // When the user clicks on <span> (x), close the modal
